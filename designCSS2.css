@@ -1,0 +1,1131 @@
+/* The main compounds of html files, the main constructing ones*/
+@font-face {
+    font-family: FootballFont;
+    src: url(imgftball/bebas.ttf);
+}
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    max-zoom: 100%;
+    min-zoom: 100%;
+    
+}
+body{
+    zoom: 100%;
+    max-zoom: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: rgb(255, 255, 255)!important;
+    margin: 0 0 0 0;
+    padding: 0% 0 0 0;
+    touch-action: pan-x pan-y;
+    opacity: 1;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+h1 {
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    font-family: FootballFont;
+    text-align: center;
+}
+div {
+    position: static;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    text-size-adjust: none;
+}
+
+p, figcaption{
+    font-size: 1vw; 
+    color: rgb(0, 0, 0); 
+    font-family: FootballFont;
+    text-align: center;
+    text-size-adjust: none;
+} 
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+a:active{
+    color: rgb(0, 0, 0);
+}
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(255,237,0);
+}
+a:visited > p {
+    color: black;
+}
+
+
+
+
+
+/* Upper fixed */
+
+.fixedMenu {
+    background-color: rgb(255, 255, 255); 
+    display: inline-flex; 
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0% 0 0% 0;
+}
+
+
+/**/ 
+
+.label {
+    width: 50%;
+    max-width: 50%;
+    margin: 0.5% 0 0.5% 0;
+    padding: 0 0 0 0;
+}
+.label > a {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-decoration: none;
+}
+.label > a > p {
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 0;
+    padding: 8% 0 0 0;
+    font-size: 3vw;
+}
+/* inner compounds of the fixed menu*/ 
+
+button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+button.references {
+    width: 50%;
+    transition: 0.5s;
+    margin: 0% 0 0% 0;
+    padding: 2% 0 0% 0;
+}
+a.references {
+    width: 50%;
+    transition: 0.5s;
+    margin: 0% 0 0% 0;
+    padding: 3% 0 0% 0;
+    text-decoration: none;
+}
+
+button.references:hover {
+    transition-duration: 1s;
+    background-color: rgb(255,237,0)!important;
+}
+a.references:hover {
+    transition-duration: 1s;
+    background-color: rgb(255,237,0)!important;
+}
+button:hover > p {
+    color: rgb(255,237,0);
+}
+
+
+button.references:hover > div > p {
+    color:rgb(0, 0, 0)!important;
+}
+
+
+a.references:hover > div > p {
+    color:rgb(0, 0, 0)!important;
+}
+
+div.references  {
+    display: unset;
+}
+.button1  {
+    display: none;
+}
+.button2 {
+    display: none;
+}
+.button3 {
+    display: none;
+}
+
+.mainMenuButtons {
+    width: 100%;
+}
+
+#stickmanContainer {
+    display: inline-flex;
+    animation: stickmanRunGif 20s;
+    animation-fill-mode: forwards;
+}
+#stickmanContainer > p {
+    padding: 2vh 0 0 0;
+    height: 1vh;
+    width: 30vw;
+}
+
+#blackstickmanGIF {
+    width: 7vw;
+}
+
+@keyframes stickmanRunGif {
+    0% {
+        margin: 5vh 0 0 -5vw;
+    }
+    100% {
+        margin: 5vh 0 0 105vw;
+        display: none;
+    }
+    
+}
+/* Main page */ 
+/* first slide */
+.Section1Slide1 {
+    display: inline-flex;
+    width: 100%; 
+    margin: 0vh 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+.Section1Slide2 {
+    display: inline-flex;
+    width: 100%; 
+    margin: 5vh 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+.Section1Slide3 {
+    display: inline-flex;
+    width: 100%; 
+    margin: 0vh 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+.Section1Slide4 {
+    display: inline-flex;
+    width: 100%; 
+    margin: 0vh 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+.Section1Slide1FirstHalf{
+    width: 50vw;
+    display: block;
+    margin: 0 0vw 0 0vw;
+}
+.Section1Slide2FirstHalf{
+    width: 50vw;
+    display: block;
+    position: relative;
+    margin: 0 5vw 0 5vw;
+}
+.Section1Slide3FirstHalf{
+    width: 50vw;
+    display: block;
+    position: relative;
+    margin: 10vh 5vw 0 5vw;
+}
+.Section1Slide4FirstHalf{
+    width: 50vw;
+    display: block;
+    position: relative;
+    margin: 10vh 5vw 10vh 55vw;
+}
+.Section1Slide1SecondHalf{
+    margin: 10vh 5vw 0 5vw; 
+    padding: 0 0 0 0; 
+    width: 50vw;
+}
+.Section1Slide2SecondHalf{
+    margin: 0vh 5vw 0 5vw; 
+    padding: 0 0 0 0; 
+    width: 50vw;
+}
+.Section1Slide3SecondHalf{
+    margin: 10vh 5vw 0 5vw; 
+    padding: 0 0 0 0; 
+    width: 50vw;
+}
+
+#teamContainer {
+    display: inline-flex; 
+    position: relative; 
+    margin: 0vh 0 4vh 0;
+}
+#teamContainer2 {
+    display: inline-flex; 
+    position: relative; 
+    margin: 0vh 0vw 4vh 0;
+}
+#teamContainer3 {
+    display: inline-flex; 
+    position: relative; 
+    margin: 0vh 0 4vh 0;
+}
+#teamLineImage {
+    position: absolute; 
+    width: 50vw;
+}
+#teamLineImage_2 {
+    position: absolute; 
+    width: 50vw; 
+    margin: 0 0 0 0;
+}
+#teamLineImage_3 {
+    position: absolute; 
+    width: 50vw; 
+    margin: 0 0 0 -12vw;
+}
+#triangle1 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 5vw;
+}
+#triangle2 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 7vw;
+}
+#triangle3 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 9vw;
+}
+#triangle4 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 5vw;
+}
+#triangle5 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 7vw;
+}
+#triangle6 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 9vw;
+}
+#triangle7 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 7vw;
+}
+#triangle8 {
+    position: relative; 
+    width: 5vw; 
+    margin: 5vh 0 0 7vw;
+}
+#teamYear1 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 4.5vw
+}
+#teamYear2 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 6.5vw;
+}
+#teamYear3 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 8.5vw;
+}
+#teamYear4 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 4.5vw;
+}
+#teamYear5 {
+    font-size: 3vw;
+    margin: 3vh 0 0 6.5vw;
+}
+#teamYear6 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 8.5vw;
+}
+#teamYear7 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 6.5vw;
+}
+#teamYear8 {
+    font-size: 3vw; 
+    margin: 3vh 0 0 6.5vw;
+}
+
+
+
+.paragraph1 {
+    font-size: 1.5vw; 
+    text-align: left; 
+    margin: 0% 0 0 0;
+    line-height: 150%;
+}
+.paragraphBigWord {
+    font-size: 2.5vw;
+}
+.paragraphBigWord2 {
+    font-size: 2.5vw; 
+    text-align: center; 
+    margin: 2% 0 2% 0; 
+    line-height: 150%;
+}
+.paragraphBigWord3 {
+    font-size: 4vw; 
+    text-align: center; 
+    margin: 2% 0 2% -20.5vw; 
+    line-height: 150%;
+}
+.paragraph2 {
+    font-size: 1.5vw; 
+    text-align: left; 
+    line-height: 150%;
+    padding: 0 0 0 0; 
+    margin: 4% 0 0 0;
+}
+
+.paragraphBigLetter {
+    font-size: 2.5vw; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 -2%
+}
+.mergingLetterToSentence {
+    margin: 0vh 0 0 -1%;
+}
+.mergingLetterToSentence {
+    margin: 0 0 0 -1%;
+}
+.mergingLetterToSentence2 {
+    margin: 0 0 0 0vw;
+}
+#contactsFirstParagraph > #contactsHeadingParagraph {
+    margin: 0 0 0 0vw;
+
+}
+#contactsHeadingParagraph{
+    margin: 0 0 0 -0.3vw;
+}
+
+.emphasis {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255,237,0); 
+    font-size: 2vw; 
+    padding: 0.3em 0.1em 0.1em 0.1em; 
+    margin: 0 0.2em 0 0.2em;
+}
+.paragraph3 {
+    font-size: 1.5vw; 
+    text-align: center; 
+    background-color:rgb(255,237,0); 
+    padding: 3vh 0 3vh 0; 
+    margin: 4vh 0 0vh 0;
+    color: rgb(0, 0, 0);
+    animation: moveParagraph3 5s infinite;
+}
+
+#section1Slide1PhoneOn {
+    display: none;
+}
+#section1Slide1PhoneOff {
+    display: unset;
+}
+
+
+.gameGoalMain {
+
+    display: inline-flex; 
+    background-color: rgb(255,237,0); 
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+}
+.gameGoal1 {
+    margin: 10% 10vw 10% 2vw; 
+    padding: 0 0 0 0; 
+    height: calc(100% - 20vh);
+}
+
+.gameGoalMove{
+    margin: 15% 0 5% 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: calc(100% - 20vh);
+}
+.gameGoal2{
+    display: inline-flex; 
+    padding: 0 0 0 0; 
+    margin: 2vh 0 2vh 0; 
+    height: calc(100% - 20vh)
+}
+
+.gameGoal{
+    display: block; 
+    position: static; 
+    margin: 0 0 0 0;
+}
+.G {
+    font-size: 63vw;
+    padding: 0 0 0 0; 
+    margin: 105% 0 0 0;
+    position: unset;
+    animation: letterGMove 3s infinite, letterGFlash 1s infinite;
+}
+
+@keyframes letterGMove {
+    0%, 100% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    
+}
+
+@keyframes letterGFlash {
+    0%, 100% {
+       
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    
+}
+
+.oal{
+    font-size: 13vw;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: 0;
+}
+.ame{
+    font-size: 13vw;
+    margin: 7% 0 0 0; 
+    padding: 0 0 0 0;
+    line-height: 0;
+}
+.circleBall {
+    margin: 40% 0 50% 0; 
+    padding: 0 0 0 0; 
+    width: 100%;
+}
+
+
+  
+  
+  @media only screen and (max-device-width: 500px) and (max-device-height: 950px) and (min-device-width: 10px) and (min-device-height: 10px) {
+    
+    
+    html {
+        height: 100vh;
+      }
+      
+    body{
+        zoom: 100%;
+        background-color: rgb(255,237,0);
+    }
+
+    a.references {
+        width: 50%;
+        transition: 0.5s;
+        margin: 0% 0 0% 0;
+        padding: 10% 0 0% 0;
+    }
+
+    a.references:hover {
+        transition-duration: 1s;
+        background-color: rgb(255,237,0)!important;
+    }
+
+
+    a{
+        text-decoration: none;
+    }
+    a:visited{
+        color: rgb(0, 0, 0);
+        
+    }
+    a:hover{
+        color: rgb(0, 0, 0);
+    }
+    a:active{
+        color: rgb(0, 0, 0);
+    }
+    a:link {
+        color: rgb(0, 0, 0);
+        text-decoration-line: underline;
+        text-decoration-style: dotted;
+    }
+
+    /**/ 
+
+    .label {
+        width: 50%;
+        max-width: 50%;
+        margin: 0.5% 0 0.5% 0;
+        padding: 0 0 0 0;
+    }
+    .label > a {
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        text-decoration: none;
+    }
+    .label > a > p {
+        color: rgb(0, 0, 0);
+        margin: 0 0 0 0;
+        padding: 8% 0 0 0;
+        font-size: 3vw;
+    }
+    /* inner compounds of the fixed menu*/ 
+
+    button{
+        background-color: rgb(255, 255, 255);
+        border: none;
+    }
+
+    button.references {
+        width: 50%;
+        transition: 0.5s;
+        margin: 0% 0 0% 0;
+        padding: 2% 0 0% 0;
+    }
+    a.references {
+        width: 50%;
+        transition: 0.5s;
+        margin: 0% 0 0% 0;
+        padding: 10% 0 0% 0;
+        text-decoration: none;
+    }
+
+    button.references:hover {
+        transition-duration: 1s;
+        background-color: rgb(255,237,0)!important;
+    }
+    a.references:hover {
+        transition-duration: 1s;
+        background-color: rgb(255,237,0)!important;
+
+    }
+    button:hover > p {
+        color: rgb(255,237,0);
+    }
+
+
+    button.references:hover > div > p {
+        color:rgb(0, 0, 0)!important;
+    }
+
+
+    a.references:hover > div > p {
+        color:rgb(0, 0, 0)!important;
+        text-decoration: none;
+    }
+
+    div.references  {
+        display: unset;
+    }
+    .button1  {
+        display: none;
+    }
+    .button2 {
+        display: none;
+    }
+    .button3 {
+        display: none;
+    }
+
+    .mainMenuButtons {
+        width: 100%;
+    }
+
+
+    /* Main page */ 
+    /* first slide */
+    .Section1Slide1 {
+        display: block;
+        width: 100%; 
+        margin: -10vh 0 0 0; 
+        padding: 0 0 0 0; 
+        line-height: 0;
+    }
+    .Section1Slide2 {
+        display: block;
+        width: 100%; 
+        margin: -5vh 0 0 0; 
+        padding: 0 0 0 0; 
+        line-height: 0;
+    }
+    .Section1Slide3 {
+        display: block;
+        width: 100%; 
+        margin: -5vh 0 0 0; 
+        padding: 0 0 0 0; 
+        line-height: 0;
+    }
+    .Section1Slide4 {
+        display: inline-flex;
+        width: 100%; 
+        margin: 0vh 0 0 0; 
+        padding: 0 0 0 0; 
+        line-height: 0;
+    }
+    .Section1Slide1FirstHalf{
+        width: 100vw;
+        display: block;
+        margin: 0 0vw 0 0vw;
+    }
+    .Section1Slide2FirstHalf{
+        width: 100vw;
+        display: block;
+        position: relative;
+        margin: 0 0vw 0 0vw;
+    }
+    .Section1Slide3FirstHalf{
+        width: 100vw;
+        display: block;
+        position: relative;
+        margin: 0vh 0vw 0 0vw;
+    }
+    .Section1Slide4FirstHalf{
+        width: 100vw;
+        display: block;
+        position: relative;
+        margin: -5vh 0vw 0vh 0vw;
+    }
+    .Section1Slide1SecondHalf{
+        margin: 0vh 0vw 0 0vw; 
+        padding: 0 0 0 0; 
+        width: 100vw;
+    }
+    .Section1Slide2SecondHalf{
+        margin: 0vh 5vw 0 0vw; 
+        padding: 0 0 0 0; 
+        width: 100vw;
+    }
+    .Section1Slide3SecondHalf{
+        margin: -5vh 0vw 0 0vw; 
+        padding: 0 0 0 0; 
+        width: 100vw;
+    }
+
+    #teamContainer {
+        display: inline-flex; 
+        position: relative; 
+        margin: 0vh 0 4vh 0;
+    }
+    #teamContainer2 {
+        display: inline-flex; 
+        position: relative; 
+        margin: 0vh 0vw 4vh 0;
+    }
+    #teamContainer3 {
+        display: inline-flex; 
+        position: relative; 
+        margin: 0vh 0 4vh 0;
+    }
+    #teamLineImage {
+        position: absolute; 
+        width: 100vw;
+    }
+    #teamLineImage_2 {
+        position: absolute; 
+        width: 100vw; 
+        margin: 0 0 0 0;
+    }
+    #teamLineImage_3 {
+        position: absolute; 
+        width: 100vw; 
+        margin: 0 0 0 -12vw;
+    }
+    #triangle1 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 5vw;
+    }
+    #triangle2 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 7vw;
+    }
+    #triangle3 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 9vw;
+    }
+    #triangle4 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 5vw;
+    }
+    #triangle5 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 7vw;
+    }
+    #triangle6 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 9vw;
+    }
+    #triangle7 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 7vw;
+    }
+    #triangle8 {
+        position: relative; 
+        width: 20vw; 
+        margin: 0vh 0 0 25vw;
+    }
+    #teamYear1 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 4.5vw
+    }
+    #teamYear2 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 6.5vw;
+    }
+    #teamYear3 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 8.5vw;
+    }
+    #teamYear4 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 4.5vw;
+    }
+    #teamYear5 {
+        font-size: 8vw;
+        margin: 3vh 0 0 6.5vw;
+    }
+    #teamYear6 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 8.5vw;
+    }
+    #teamYear7 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 6.5vw;
+    }
+    #teamYear8 {
+        font-size: 8vw; 
+        margin: 3vh 0 0 24vw;
+    }
+
+    #section1Slide1PhoneOn {
+        display: none;
+    }
+    #section1Slide1PhoneOff {
+        display: unset;
+    }
+
+
+    .gameGoalMain {
+
+        display: inline-flex; 
+        background-color: rgb(255,237,0); 
+        width: 100%; 
+        margin: 0 0 0 0; 
+        padding: 0 0 0 0;
+    }
+    .gameGoal1 {
+        margin: 10% 10vw 10% 2vw; 
+        padding: 0 0 0 0; 
+        height: calc(100% - 20vh);
+    }
+
+    .gameGoalMove{
+        margin: 15% 0 5% 0;
+        padding: 0 0 0 0;
+        width: 100%;
+        height: calc(100% - 20vh);
+    }
+    .gameGoal2{
+        display: inline-flex; 
+        padding: 0 0 0 0; 
+        margin: 2vh 0 2vh 0; 
+        height: calc(100% - 20vh)
+    }
+
+    .gameGoal{
+        display: block; 
+        position: static; 
+        margin: 0 0 0 0;
+    }
+    .G {
+        font-size: 63vw;
+        padding: 0 0 0 0; 
+        margin: 105% 0 0 0;
+        position: unset;
+        animation: letterGMove 3s infinite, letterGFlash 1s infinite;
+    }
+
+    @keyframes letterGMove {
+        0%, 100% {
+            transform: rotate(-5deg);
+        }
+        50% {
+            transform: rotate(5deg);
+        }
+        
+    }
+
+    @keyframes letterGFlash {
+        0%, 100% {
+        
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.9;
+        }
+        
+    }
+
+    .oal{
+        font-size: 13vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        line-height: 0;
+    }
+    .ame{
+        font-size: 13vw;
+        margin: 7% 0 0 0; 
+        padding: 0 0 0 0;
+        line-height: 0;
+    }
+    .circleBall {
+        margin: 40% 0 50% 0; 
+        padding: 0 0 0 0; 
+        width: 100%;
+    }
+
+    #section1Slide1PhoneOn {
+        display: unset;
+    }
+    #section1Slide1PhoneOff {
+        display: none;
+    }
+    
+
+    .textMain { 
+        display: block;
+        width: calc(100% - 12vw);
+        margin: 3vh 5vw 7vh 7vw;
+        padding: 0 0 0 0;
+    }
+
+    .paragraph1 {
+        font-size: 5vw; 
+        text-align: left; 
+        margin: 0% 0 0 0;
+        line-height: 150%;
+    }
+    .paragraphBigWord {
+        font-size: 10vw;
+    }
+    .paragraphBigWord2 {
+        font-size: 8vw; 
+        text-align: center; 
+        margin: 2% 0 2% 0; 
+        line-height: 150%;
+    }
+    .paragraphBigWord3 {
+        font-size: 4vw; 
+        text-align: center; 
+        margin: 2% 0 2% -20.5vw; 
+        line-height: 150%;
+    }
+    .paragraph2 {
+        font-size: 5vw; 
+        text-align: left; 
+        line-height: 150%; 
+        margin: 5% 0 0 0;
+    }
+
+    .paragraphBigLetter {
+        font-size: 10vw; 
+        margin: 0 0 0 0; 
+        padding: 0 0 0 -2%
+    }
+    .mergingLetterToSentence {
+        margin: 0vh 0 0 -1%;
+    }
+    .mergingLetterToSentence {
+        margin: 0 0 0 -1%;
+    }
+    .mergingLetterToSentence2 {
+        margin: 0 0 0 0vw;
+    }
+
+
+    .emphasis {
+        color: rgb(0, 0, 0); 
+        background-color: rgb(255,237,0); 
+        font-size: 6vw; 
+        padding: 0.2em 0.1em 0.2em 0.1em; 
+        margin: 0 0.2em 0 0.0em;
+    }
+    .paragraph3 {
+        font-size: 5vw; 
+        text-align: center; 
+        background-color:rgb(255,237,0); 
+        padding: 3vh 0 3vh 0; 
+        margin: 4vh 0 0vh 0;
+        color: rgb(0, 0, 0);
+        animation: moveParagraph3 5s infinite;
+    }
+
+    .gameGoalMain {
+        display: inline-flex; 
+        background-color: rgb(255,237,0); 
+        width: 100%; 
+        margin: 0 0 15vh 0; 
+        padding: 0 0 0 0;
+    }
+    .gameGoal1 {
+        margin: 0 0 0% 0vw; 
+        padding: 0 0 0vh 0; 
+    }
+
+    .gameGoalMove{
+        margin: 0vh 0 0vh 0;
+        padding: 0vh 0 0 0;
+        width: 100%;
+    }
+    .gameGoal2{
+        display: inline-flex; 
+        padding: 0 0 0 0; 
+        margin: 0vh 0 0vh 0; 
+    }
+
+    .gameGoal{
+        display: block; 
+        margin: 37% 0 0vh 0;
+        padding: 0vh 0 0 0;
+    }
+    .gameGoal > figcaption {
+        font-size: 20vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+    .G {
+        font-size: 95vw;
+        padding: 0 0 0 0; 
+        margin:  50% 0 0vh 6vw;
+        position: relative;
+        animation: letterGMove 3s infinite, letterGFlash 1s infinite;
+    }
+
+    @keyframes letterGMove {
+        0%, 100% {
+            transform: rotate(-5deg);
+        }
+        50% {
+            transform: rotate(5deg);
+        }
+        
+    }
+
+    @keyframes letterGFlash {
+        0%, 100% {
+        
+            opacity: 1;
+        }
+        50% {
+            opacity: 0.9;
+        }
+        
+    }
+
+    .oal{
+        font-size: 20vw;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        line-height: 0;
+    }
+    .ame{
+        font-size: 20vw;
+        margin: 0 0 0 0; 
+        padding: 0 0 0 0;
+        line-height: 0;
+    }
+    .circleBall {
+        margin: 15% 0 20% 13.5vw; 
+        padding: 0 0 0 0; 
+        width: 50%;
+    }
+
+
+
+
+
+        .fixedMenu {
+            padding: 0% 0 0% 0;
+            height: 10vh;
+            background: none;
+        }
+        
+        .mainMenuButtons {
+            width: 100%;
+        }
+        
+        .label {
+            width: 20%;
+            height: 100%;
+            margin: 1% 0 0% 0;
+            padding: 0% 0 0% 0;
+            display: none;
+            
+        }
+        .label > a {
+            width: 100%;
+            height: 100%;
+            margin: 0% 0 0% 0;
+            padding: 0% 0 0% 0;
+        }
+        .label > a > p {
+            color: rgb(0, 0, 0);
+            font-size: 5vw;
+            margin: 7% 0 0% 4%;
+            padding: 0 0 0 0;
+        }
+        .references > p {
+            font-size: 3vw;
+            text-decoration: none;
+        }
+        button.references:hover > div > p {
+            color: rgb(255,237,0)!important;
+            
+        }
+        button{
+            background: none;
+            border: none;
+            text-decoration: none;
+            
+        }
+        button.references {
+            width: 50%;
+            transition: 0.5s;
+            padding: 5% 0 0 0;
+            text-decoration: none;
+        }
+        
+        button.references:hover {
+            background-color: rgb(0, 0, 0)!important;
+        }
+        button:hover > p {
+            color: rgb(255,237,0);
+        }
+        
+        
+    
+
+
+
+    }
+
+

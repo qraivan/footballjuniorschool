@@ -1,0 +1,2896 @@
+/* The main compounds of html files, the main constructing ones*/
+@font-face {
+    font-family: FootballFont;
+    src: url(imgftball/bebas.ttf);
+}
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+    max-zoom: 100%;
+    min-zoom: 100%;
+    
+}
+body{
+    zoom: 100%;
+    max-zoom: 100%;
+    width: 100%;
+    opacity: 1;
+    background-color: rgb(255, 255, 255)!important;
+    margin: 0 0 0 0;
+    padding: 0% 0 0 0;
+    touch-action: pan-x pan-y;
+    opacity: 1;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+h1 {
+    font-size: 20px; 
+    color: rgb(255, 255, 255); 
+    font-family: FootballFont;
+    text-align: center;
+}
+div {
+    position: static;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    text-size-adjust: none;
+}
+
+p, figcaption{
+    font-size: 1vw; 
+    color: rgb(0, 0, 0); 
+    font-family: FootballFont;
+    text-align: center;
+    text-size-adjust: none;
+} 
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+    
+}
+a:hover{
+    color: rgb(255,237,0);
+}
+a:active{
+    color: rgb(0, 0, 0);
+}
+a:link {
+    color: rgb(255,237,0);
+}
+a:visited > p {
+    color: black;
+}
+
+
+
+
+
+/* Upper fixed */
+
+.fixedMenu {
+    background-color: rgb(255, 255, 255); 
+    display: inline-flex; 
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0% 0 0% 0;
+}
+
+
+
+
+
+/**/ 
+
+.label {
+    width: 50%;
+    max-width: 50%;
+    margin: 0.5% 0 0.5% 0;
+    padding: 0 0 0 0;
+}
+.label > a {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.label > a > p {
+    color: rgb(0, 0, 0);
+    margin: 0 0 0 0;
+    padding: 8% 0 0 0;
+    font-size: 3vw;
+}
+/* inner compounds of the fixed menu*/ 
+
+button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+button.references {
+    width: 50%;
+    transition: 0.5s;
+    margin: 0% 0 0% 0;
+    padding: 2% 0 0% 0;
+}
+a.references {
+    width: 50%;
+    transition: 0.5s;
+    margin: 0% 0 0% 0;
+    padding: 3% 0 0% 0;
+}
+
+button.references:hover {
+    transition-duration: 1s;
+    background-color: rgb(255,237,0)!important;
+}
+a.references:hover {
+    transition-duration: 1s;
+    background-color: rgb(255,237,0)!important;
+}
+button:hover > p {
+    color: rgb(255,237,0);
+}
+
+
+button.references:hover > div > p {
+    color:rgb(0, 0, 0)!important;
+}
+
+
+a.references:hover > div > p {
+    color:rgb(0, 0, 0)!important;
+}
+
+div.references  {
+    display: unset;
+}
+.button1  {
+    display: none;
+}
+.button2 {
+    display: none;
+}
+.button3 {
+    display: none;
+}
+
+.mainMenuButtons {
+    width: 100%;
+}
+
+/* unrelieving button - transition to another page*/
+.sidedButtonContainer{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+    margin: 0.75% 0% 0% 0%;
+}
+.bar1, .bar2, .bar3 {
+    width: 30%;
+    height: 20%;
+    background-color: #000000;
+    margin: 1% 0% 0 60%;
+    padding: 0 0 0 0;
+    transition: 1s;
+}
+.bar1:hover, .bar2:hover, .bar3:hover{
+    background-color:  rgb(255,237,0);
+}
+.change .bar1 {
+    width: 40%;
+}
+.change .bar2{
+    width: 40%;
+}
+.change .bar3 {
+    width: 40%;
+}
+
+/* menu-window to the another classification */ 
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 85%;
+    opacity: 0;
+    width: 10%;
+    margin: 4.5% 0 0 0;
+    transition: 1.5s;
+}
+.menuShowOnOff {
+    opacity: 1;
+    width: 15%;
+}
+.menuLabel {
+    display: inline-flex;
+}
+
+div.otherPages1 {
+    margin: 3% 0 0 0;
+}
+div.otherPages2 {
+    margin: 0 0 0 0;
+}
+div.otherPages3 {
+    margin: 0 0 3% 0;
+    
+}
+.otherPages1:hover > a > img {
+    content: url(imgftball/историяНННЧ.png);
+}
+
+.otherPages2:hover > a > img {
+    content: url(imgftball/командыННЧ.png);
+}
+
+.otherPages3:hover > a > img {
+    content: url(imgftball/достиженияНННЧ.png);
+}
+
+
+/* Main page */ 
+/* first slide */
+.Section1Slide1 {
+    width: 100vw;
+    margin: 0% 0 0 0;
+    content: url(imgftball/templateSection1Slide1.png);
+}
+
+#section1Slide1PhoneOn {
+    display: none;
+}
+#section1Slide1PhoneOff {
+    display: unset;
+}
+
+.Section1Slide1FirstHalf{
+    width: 50vw;
+    display: block;
+    position: relative;
+}
+
+#squareMove {
+    background-color: black;
+    padding: 0% 0 0 0;
+    position: relative;
+    animation: squareMove 8s infinite;
+    animation-fill-mode: none;
+}
+
+@keyframes squareMove {
+    0%, 100%{
+        width: 10vw; 
+        height: 20vh; 
+        margin: 45vh 0 0 4vw;
+    }
+    25% {
+        width: 15vw; 
+        height: 25vh; 
+        margin: 3vh 0 0 4vw;
+    }
+    50% {
+        width: 15vw; 
+        height: 25vh; 
+        margin: 3vh 0 0 38vw;
+    }
+}
+
+#арендаПолейКонтейнер {
+    margin: 0vh 0 0vh -27vw;
+    padding: 15vh 0 0 0;
+}
+
+#арендаПолей {
+    font-size: 2vw; 
+    margin: 0vh 0 0 0vw;
+} 
+
+#да1{
+    font-size: 2vw; 
+    margin: 0 0 0 -7.5vw;
+}
+
+#любишьФутболКонтейнер{
+    display: block;
+    margin: 20vh 0 0 1vw;
+    position: absolute;
+}
+#любиКонтейнер {
+    display: inline-flex; 
+    margin: 10vh 0 5vh 5vw;
+}
+
+#люби {
+    font-size: 11vw;
+    margin: 0 0 0 0;
+}
+#ш {
+    font-size: 11vw;
+    color: rgb(255,237,0);
+    margin: 0 0 0 0;
+}
+#ь {
+    font-size: 11vw;
+    margin: 0 0 0 0;
+}
+#мКонтейнер {
+    display: inline-flex;
+    margin: 0 0 0 0;
+}
+#м {
+    font-size: 11vw;
+    color: rgb(255,237,0);
+    margin: 0vh 0 0 0;
+}
+#вопрос {
+    font-size: 11vw;
+    margin: 0 0 0 0;
+}
+
+#футбоКонтейнер {
+    display: inline-flex; 
+    margin: 2vh 0 0 0vw; 
+    padding: 0 0 0 0; 
+    transform: rotate(-90deg);
+}
+
+#ф {
+    font-size: 9vw;
+    color: rgb(255,237,0);
+    margin: 0 0 0 0;
+}
+#утбол {
+    font-size: 8vw;
+    margin: 0 0 0 0;
+}
+
+
+.Section1Slide1SecondHalf{
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0; 
+    width: 50vw;
+}
+
+#секцияФутболаКонтейнер {
+    margin: 15vh 0 0vh 27vw;
+}
+#секцияФутбола{
+    font-size: 2vw; 
+    margin: 0vh 0 0vh 0vw;
+}
+#да2{
+    font-size: 2vw; 
+    margin: 0vh 0 0vh 9vw;
+}
+#stickmanPipeDateDots {
+    display: block;
+    margin: 30vh 0 0 0;
+}
+#stickmanPipe {
+    display: inline-flex;
+    margin: 0 0 0 15.3vw;
+}
+#section1Slide1Pipe {
+    background-color: black; 
+    width: 3.8vw; 
+    height: 65vh; 
+    margin: 0vh 0 0 25.45vw;
+}
+#lowerThreeDotsDateContainer{
+    display: inline-flex; 
+    margin: 0 0 0 15.3vw;
+}
+
+#groundDate {
+    color: rgb(0, 0, 0); 
+    margin: 3.5vh 0 0 0vw; 
+    font-size: 3vw;
+}
+#groundBlackSquare {
+    width: 6vw; 
+    height: 11vh;
+    margin: 0 0 0 0;
+}
+#blackStickman {
+    margin: 26vh 0 0 0vw; 
+    padding: 0 0 0 0; 
+    width: 18%; 
+    position: absolute;
+}
+
+#phoneCoach > p {
+    font-size: 2vw;
+    background-color: rgb(255,237,0);
+    margin: 2vh 0 0 -4vw;
+    padding: 4vh 40vw 3vh 0vw;
+}
+
+#paragraphBigWordCoach {
+    font-size: 2vw;
+    background-color: rgb(255,237,0);
+    padding: 3vh 5vw 2vh 5.5vw;
+
+}
+
+table {
+    width: 86vw;
+    font-family: FootballFont;
+    font-size: 2.5vw;
+    margin: -5vh 7vw 0vh 7vw;
+    padding: 0vh 0 7vh 0vw;
+  }
+  th {
+    font-family: FootballFont;
+    padding: 6vh 0 4vh 0;
+    color: rgb(255,237,0);
+    background-color: #000000;
+  }
+  td {
+    font-family: FootballFont;
+    margin: 0vh 0 0vh 0;
+    padding: 4vh 0 4vh 2vw;
+    background-color: rgb(255,237,0);
+  }
+
+
+
+#paragraphBigWordCoachYear1 {
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    margin: 4.5vh 0 10vh 2vw;
+}
+
+#paragraphBigWordCoachYear2 {
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    margin: 0 0 0vh 2vw;
+
+}
+#paragraphBigWordCoachYear3 {
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    margin: -4.5vh 0 0vh 2vw;
+}
+
+
+
+#paragraphBigWordCoachYear4 {
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    margin: 10vh 0 10vh 2vw;
+}
+
+#paragraphBigWordCoachYear5 {
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    margin: 0 0 0vh 2vw;
+
+}
+#paragraphBigWordCoachYear6 {
+    font-size: 2vw;
+    padding: 0 0 0 0;
+    margin: 5vh 0 0vh 2vw;
+
+}
+/* second slide */
+.Section1Slide2 {
+    display: inline-flex;
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+.Section1Slide2FirstHalf{
+    width: 50vw;
+    display: block;
+}
+
+.Section1Slide2SecondHalf{
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0; 
+    width: 50vw;
+}
+
+.Section1Slide2SecondHalf > .textMain > .paragraph1 {
+    padding: 0vh 0 0 0;
+    margin: 10vh 0 0 0;
+}
+.Section1Slide3 {
+    display: block;
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+
+.stickmanRun {
+    width: 15%;
+    margin: 0 0 0 -10%;
+    animation: stickmanRunAnimation 8s infinite;
+    animation-fill-mode: none;
+}
+@keyframes stickmanRunAnimation {
+    0% {
+        margin: 0 0 0 -10%;
+    }
+    100% {
+        margin: 0 0 0 100%;
+    }
+}
+
+@keyframes stickmanRunAnimation {
+    0% {
+        margin: 0 0 0 -10%;
+    }
+    100% {
+        margin: 0 0 0 100%;
+    }
+}
+
+/*Second Slide, First Section - Game Goal Animation; */
+
+
+
+
+.gameGoalMain {
+
+    display: inline-flex; 
+    background-color: rgb(255,237,0); 
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+}
+.gameGoal1 {
+    margin: 10% 10vw 10% 2vw; 
+    padding: 0 0 0 0; 
+    height: calc(100% - 20vh);
+}
+
+.gameGoalMove{
+    margin: 15% 0 5% 0;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: calc(100% - 20vh);
+}
+.gameGoal2{
+    display: inline-flex; 
+    padding: 0 0 0 0; 
+    margin: 2vh 0 2vh 0; 
+    height: calc(100% - 20vh)
+}
+
+.gameGoal{
+    display: block; 
+    position: static; 
+    margin: 0 0 0 0;
+}
+.G {
+    font-size: 63vw;
+    padding: 0 0 0 0; 
+    margin: 90% 0 0 0;
+    position: unset;
+    animation: letterGMove 3s infinite, letterGFlash 1s infinite;
+}
+
+@keyframes letterGMove {
+    0%, 100% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    
+}
+
+@keyframes letterGFlash {
+    0%, 100% {
+       
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    
+}
+
+.oal{
+    font-size: 13vw;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: 0;
+}
+.ame{
+    font-size: 13vw;
+    margin: 7% 0 0 0; 
+    padding: 0 0 0 0;
+    line-height: 0;
+}
+.circleBall {
+    margin: 40% 0 50% 0; 
+    padding: 0 0 0 0; 
+    width: 100%;
+}
+
+.bridge {
+    width: 7%;
+    background-color: rgb(255,237,0);
+    transform: rotate(90deg);
+}
+#bridge {
+    width: 30%;
+    background-color: rgb(255,237,0);
+    transform: rotate(90deg);
+}
+
+
+.year {
+    font-size: 1.5vw; 
+    padding: 6% 0 6% 0;
+    width: calc(100%/4); 
+    text-align: center;  
+    margin: 0; 
+    background-color: black; 
+    color: rgb(255,237,0);
+    
+}
+
+.year2Layer {
+    font-size: 1.5vw; 
+    width: calc(100%/3); 
+    height: 0;  
+    text-align: center; 
+    margin: 0 0 0 0%; 
+    padding: 7.5% 0 7.5% 0; 
+    background-color: black; 
+    color: rgb(255,237,0);
+}
+.gameGoalImageForSafari {
+    display: none;
+}
+.textMain { 
+    display: block;
+    width: calc(100% - 12vw);
+    height: calc(100% - 22vh);
+    margin: 14vh 5vw 8vh 7vw;
+    padding: 0 0 0 0;
+}
+.textRent { 
+    display: block;
+    width: calc(100% - 12vw);
+    height: calc(100% - 16vh);
+    margin: 8vh 5vw 8vh 7vw;
+    padding: 0 0 0 0;
+}
+.textContacts { 
+    display: block;
+    width: calc(100% - 12vw);
+    height: calc(100% - 16vh);
+    margin: 8vh 5vw 8vh 7vw;
+    padding: 0 0 0 0;
+}
+
+.paragraph1 {
+    font-size: 1.5vw; 
+    text-align: left; 
+    margin: 0% 0 0 0;
+    line-height: 150%;
+}
+.paragraphBigWord {
+    font-size: 2.5vw;
+}
+.paragraphBigWord2 {
+    font-size: 2.5vw; 
+    text-align: center; 
+    margin: 2% 0 2% 0; 
+    line-height: 150%;
+}
+.paragraphBigWord3 {
+    font-size: 4vw; 
+    text-align: center; 
+    margin: 2% 0 2% -20.5vw; 
+    line-height: 150%;
+}
+.paragraph2 {
+    font-size: 1.5vw; 
+    text-align: left; 
+    line-height: 150%;
+    padding: 0 0 0 0; 
+    margin: -0.5% 0 0 0;
+}
+
+.paragraphBigLetter {
+    font-size: 2.5vw; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 -2%
+}
+.mergingLetterToSentence {
+    margin: 0vh 0 0 -1%;
+}
+.mergingLetterToSentence {
+    margin: 0 0 0 -1%;
+}
+.mergingLetterToSentence2 {
+    margin: 0 0 0 0vw;
+}
+#contactsFirstParagraph > #contactsHeadingParagraph {
+    margin: 0 0 0 0vw;
+
+}
+#contactsHeadingParagraph{
+    margin: 0 0 0 -0.3vw;
+
+}
+
+
+.emphasis {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255,237,0); 
+    font-size: 2vw; 
+    padding: 0.1em 0.1em 0.1em 0.1em; 
+    margin: 0 0.2em 0 0.2em;
+}
+.paragraph3 {
+    font-size: 1.5vw; 
+    text-align: center; 
+    background-color:rgb(255,237,0); 
+    padding: 3vh 0 3vh 0; 
+    margin: 4vh 0 0vh 0;
+    color: rgb(0, 0, 0);
+    animation: moveParagraph3 5s infinite;
+}
+
+
+
+
+
+
+
+ /* Аренда поля */
+.Section2Slide1 {
+    width: 100%;
+    height: 100%;
+ }
+ .bigScreen {
+    display: inline-flex;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+ }
+ 
+.blockInsideSection {
+    display: block;
+    width: 50vw;
+    padding: 0 0 0vh 0;
+    margin: 0% 0 0 0;
+ }
+
+#arrow {
+    display: unset;
+}
+#rentDown {
+    display: unset;
+}
+#phone{
+    display: unset;
+}
+
+
+#rentDown2 {
+    display: none;
+}
+#phone2{
+    display: none;
+}
+
+#phone2 > p {
+    font-size: 7vw;
+}
+
+
+
+#жетысуский{
+    margin: 2vh 0 0vh 0; 
+    font-size: 2vw;
+
+}
+
+#mapSecondSlide {
+    padding: 3vh 1vw 10vh 1vw; 
+    margin: 12vh 2vw 10vh 3vw; 
+    background-color: rgb(0, 0, 0);
+}
+#mapSecondSlide > a > img {
+    width: 45vw; 
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0
+
+}
+
+#mapSecondSlide2 {
+    padding: 3vh 1vw 10vh 1vw; 
+    margin: 0 2vw 10vh 3vw; 
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+
+#mapSecondSlide2 > a > img {
+    width: 90vw; 
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0
+
+}
+
+#rentSecondSlide2 {
+    display: none;
+}
+
+
+#rentSecondSlide_1 {
+    margin: 3.5vh 0 2vh 0vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+#rentSecondSlide_1 > img {
+    width: 5vw;
+}
+#rentSecondSlide_1 > figcaption {
+    font-size: 1.5vw; 
+    padding: 1.5vh 0 0 1vw;
+    margin: 0 0 0 0.7vw;
+}
+#rentSecondSlide_2 {
+    margin: 5vh 0 0 0vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+
+#rentSecondSlide_2 > img {
+    width: 4vw;
+}
+#rentSecondSlide_2 > figcaption {
+    font-size: 1.5vw; 
+    padding: 2vh 0 0 2.5vw
+}
+#rentSecondSlide_3 {
+    margin: 5vh 0 0 1vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+#rentSecondSlide_3 > img {
+    width: 3vw; 
+    transform: rotate(90deg);
+}
+#rentSecondSlide_3 > div > #one {
+    font-size: 1.5vw; 
+    padding: 4.2vh 0 0 2.5vw;
+}
+
+#rentSecondSlide_3 > div > #two {
+    font-size: 1.5vw; 
+    padding: 0vh 0 0 0vw; 
+    margin: 0 0 0 -5.5vw;
+}
+#rentSecondSlide_4 {
+    margin: 5vh 0 0 0.5vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+#rentSecondSlide_4 > img {
+    width: 3vw;
+}
+#rentSecondSlide_4 > div > #one {
+    font-size: 1.5vw; 
+    padding: 3.2vh 0 0 3vw
+}
+
+#rentSecondSlide_4 > div > #two {
+    font-size: 1.5vw; 
+    padding: 0vh 0 0 0vw; 
+    margin: 0 0 0 2.5vw
+}
+
+/* field presentation */
+
+ .Section2Slide1PhoneOn {
+    display: block;
+    width: 50vw;
+    padding: 0 0 2vh 0;
+    margin: 0% 0 0 0;
+    display: none;
+ } 
+ .Section2Slide1PhoneOff{
+    width: 50vw;
+    padding: 0 0 2vh 0;
+    margin: 0% 0 0 0;
+    display: block;
+    
+ }
+
+.gateContainer1 {
+    display: inline-flex;
+    padding: 0 0 0 0;
+    
+}
+
+.gateContainer2 {
+    display: inline-flex;
+    margin: 0 0 0 0;
+}
+.eachGate {
+    margin: 4vh 2vw 8vh 0;
+    display: block;
+}
+.gateName1 {
+    margin: 0 0% 0 0% ;
+}
+.gateName1{
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 3vh 0 0vh 4vw;
+}
+.gateSize1 {
+    margin: 0vh 0 0 4vw;
+}
+.gateSize1{
+    font-size: 2vw;
+    text-align: center;
+    padding: 2vh 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate1 {
+    width: 25vw;
+    margin: 0 0 0vh 4vw;
+}
+
+
+
+
+
+.gateName2 {
+    margin: -5vh 0 0 5vw ;
+}
+.gateName2 {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.gateSize2 {
+    margin: 0vh 0 0 5vw;
+}
+.gateSize2 {
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate2 {
+    width: 23vw;
+    margin: 0vh 0 0vh 5vw;
+}
+
+
+
+
+
+
+.gateName3 {
+    margin: 0 0% 2vh 1vw ;
+}
+.gateName3 {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.gateSize3 {
+    margin: 3vh 0 0 1.5vw;
+}
+.gateSize3 {
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate3 {
+    width: 18vw;
+    margin: 0vh 2vw 0 3vw;
+}
+
+
+
+
+.gateName4 {
+    margin: 6vh 0% 0 0%;
+}
+.gateName4  {
+    font-size: 2vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.gateSize4 {
+    margin: 2vh 0 0 0;
+}
+.gateSize4 {
+    font-size: 2vw;
+    text-align: center;
+    padding: 0% 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate4 {
+    width: 15vw;
+    margin: 2.5vh 2vw 0 3vw;
+}
+
+/* sport base presentation - Section 2 Slide 2*/
+
+/* when it is not a phone browser */
+.Section2Slide2LaptopBrowser{
+    width: 100vw;
+    padding: 0 0 2vh 0;
+    margin: 0% 0 0 0vw;
+    display: block;
+ }
+ #sportBaseBlock {
+    margin: 0vh 0 20vh 0; 
+    width: 100vw;
+ }
+
+#sportBase {
+    display: inline-flex;
+    position: relative;
+    margin: 0 0 0 5vw;
+}
+#sportBaseOrder {
+    display: inline-flex;
+    margin: 10vh 0 0 10vw;
+    position: relative;
+}
+#textBaseOrderContainer {
+    display: block;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+#costs {
+    padding: 23vh 0 0 0;
+    margin: 0vh 0 0 0vw;
+}
+
+
+#sportBase > div {
+    margin: 5vh 0 0 0vw;
+}
+#sportBaseOrder > div {
+    margin: -30vh 0 0 -5vw;
+}
+
+#sportBase > div > .paragraph1 {
+    position: absolute;
+    margin: 5vh 0 0 0;
+}
+#sportBaseOrder > div > .paragraph1 {
+    position: absolute;
+    margin: 5vh 0 0 0;
+}
+#sportBaseParagraph2 {
+    position: absolute;
+    margin: 35vh 0 5vh 0;
+}
+
+#sportBaseMerginLetterToSentence {
+    margin: 0 0% 0 -0.4vw;
+}
+
+#sportBase > img {
+    width: 60vw;  
+    height: 50vh;
+    margin: 0 0 0 40vw;
+}
+#sportBaseOrder > img {
+    width: 60vw;
+    height: 55vh; 
+    margin: -35vh 0 0 -10vw;
+}
+
+
+.Section2Slide2PhoneBrowser {
+    width: 50vw;
+    padding: 0 0 -20vh 0;
+    margin: 0% 0 0vh 0;
+    display: none;
+ } 
+ .Section2Slide3PhoneBrowser {
+    width: 50vw;
+    padding: 0 0 2vh 0;
+    margin: 0% 0 0vh 0;
+    display: none;
+ } 
+
+#sportBase2 {
+    display: inline-flex;
+    position: relative;
+}
+#sportBaseOrder2 {
+    display: inline-flex;
+    position: relative;
+}
+
+#sportBase2 > div {
+    margin: 5vh 0 0 -5vw;
+}
+#sportBaseOrder2 > div {
+    margin: 5vh 0 0 -5vw;
+}
+
+#sportBase2 > div > .paragraph1 {
+    position: absolute;
+    margin: 5vh 0 0 0;
+}
+#sportBaseOrder2 > div > .paragraph1 {
+    position: absolute;
+    margin: 5vh 0 0 0;
+}
+
+#sportBaseParagraph2 {
+    position: absolute;
+    margin: 27vh 0 5vh 0;
+}
+#sportBaseMerginLetterToSentence {
+    margin: 0 0% 0 -0.4vw;
+}
+
+#sportBase2 > img {
+    width: 60vw; 
+    height: 50vh; 
+    margin: 0 0 0 35vw;
+}
+#sportBaseOrder2 > img {
+    width: 60vw; 
+    height: 50vh; 
+    margin: 0 0 0 35vw;
+}
+
+
+.mainPhone > p {
+    font-size: 2vw;
+    padding: 2vh 0 2vh 0; 
+    color:black;
+    background-color: rgb(255,237,0);
+}
+#phoneContacts > p {
+    font-size: 2vw;
+    padding: 3vh 0 3vh 0;
+    color:black;
+    background-color: rgb(255,237,0);
+}
+.arrow {
+    transform: rotate(-180deg); 
+    width: 10vw; 
+    animation: arrowMove 3s infinite;
+}
+
+@keyframes arrowMove {
+    0%,100% {
+        margin: 0 40% 10% 40%;
+    
+    }
+    50% {
+        margin: 0 35% 10% 35%;
+    }
+    
+}
+
+
+#section1Slide5LaptopView {
+    width: 100vw;
+    display: inline-flex;
+    margin: 0 0 5vh 0;
+}
+
+#textPhotoSection {
+    width: 40vw;
+    margin: 15vh 0 0 0;
+}
+#textPhotoSection > p {
+    font-size: 3vw;
+}
+#photoSectionSlideShow {
+    width: 60vw;
+    display: block;
+    padding: 0vh 0 0vh 0;
+    margin: 0 0vw 0 0vw;
+}
+#stickManButtons {
+    display: inline-flex;
+    margin: -15vh 0 0 0vw;
+    padding: 0 0 0 0;
+    animation: none;
+    -webkit-animation: none;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes yellowStickmanMove {
+    0%  {
+        margin: -15vh 0 0 5vw;
+    }
+    100% {
+        margin: -15vh 0 0 58vw;
+    }
+    
+}
+#stickmanLeftButton1 {
+    width: 6vw;
+    margin: 0 0 0 5.5vw;
+    background: none;
+}
+#stickmanLeftButton1 > img{
+    width: 6vw;
+}
+#stickmanRightButton {
+    width: 6vw;
+    background: none;
+    margin: 0vh 0 0 30vw;
+}
+#stickmanRightButton > img{
+    width: 6vw;
+}
+#photoSection {
+    width: 55vw;
+    background-color: #000000;
+    height: 50vh;
+    margin: 0 0vw -3vh 2vw;
+    padding: 3vh 0 20vh 0;
+}
+#field1 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: unset;
+}
+#field2 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field3 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field4 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field5 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field6 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+
+#section1Slide5PhoneView{
+    width: 100vw;
+    display: none;
+}
+
+
+
+
+
+/**  contacts  **/
+
+#phoneMainSection {
+    display: inline-flex; 
+    width: 90%; 
+    margin: 0vh 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+
+#phoneSection {
+    width: 51.5vw;
+    margin: 0 0 0 0; 
+    display: block;
+}
+.p {
+    font-size: 63vw;
+    padding: 0 0 0 0; 
+    margin: 90% 0% 0 -40%;
+    position: unset;
+}
+.hone {
+    font-size: 13vw;
+    margin: 0% 0 0 -30%; 
+    padding: 0 0 0 0;
+}
+
+.phone {
+    width: 18vw;
+    margin: 0% 0 68% 0vw;
+    animation: phoneMove 0.5s infinite;
+}
+@keyframes phoneMove {
+    0%, 100% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(-2deg);
+    }
+    
+}
+
+.phoneImageForSafari {
+    display: none;
+}
+
+
+.phoneMain {
+    display: inline-flex; 
+    background-color: rgb(255,237,0); 
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 8% 0 0% 0;
+}
+.phone1 {
+    margin: 2vw 0 2vw 0; 
+    padding: 0 0 0 0; 
+    height: calc(100% - 4vw);
+    width: calc(100% - 200px);
+}
+.phoneMove2 {
+    display: block; 
+    position: static; 
+    margin: 4% 0 0 -5%;
+
+}
+.phoneMove{
+    margin: 17vh 0 10vh 5vw;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: calc(100% - 20vh);
+}
+
+.phone2{
+    display: inline-flex; 
+    padding: 0 0 0 0; 
+    margin: 2vh 0 2vh 0; 
+    height: calc(100% - 20vh)
+}
+
+.phoneParagraph{
+    display: block; 
+    position: static; 
+    margin: 70px 0 0 0;
+}
+
+#contactsText {
+    margin-top: 25%; 
+    margin-bottom: -50%; 
+    width: 38vw; 
+    margin-left: 14%; 
+    margin-right: 0;
+}
+#contactsInstagram {
+    width: 5vw; 
+    margin: 0vh 0 0 13vw;
+}
+#instagram { 
+    display: inline-flex; 
+    background: none; 
+    width: 100vw; 
+    margin: 23.3vh 0 0 0; 
+    padding: 2vh 0 2vh 0;
+}
+
+#instagram > p {
+    font-size: 5vw;
+    padding: 2% 0 0 0;
+    margin: 0 0 0 -5vw;
+}
+
+
+
+
+
+
+     @supports (font: -apple-system-body) and (-webkit-appearance: none) {
+        body {
+            zoom: 100%;
+            -webkit-text-size-adjust: none;
+            text-size-adjust: none;
+        }
+
+
+
+        /* Section[1][1] */
+        .gameGoalMain {
+            display: inline-flex; 
+            background-color: rgb(255,237,0); 
+            width: 100%; 
+            height: 100%; 
+            margin: 0 0 0 0; 
+            padding: 0 0 0 0;
+        }
+        .gameGoal1 {
+            margin: 2vw 0 2vw 0; 
+            padding: 0 0 0 0; 
+            height: calc(100% - 4vw);
+            width: calc(100% - 200px);
+        }
+        .gameGoalMove{
+            margin: 10vh 0 10vh 0;
+            padding: 0 0 0 0;
+            width: 100%;
+            height: calc(100% - 20vh);
+        }
+        
+        .gameGoal2{
+            display: none;
+        }
+
+        .gameGoal{
+            display: block; 
+            position: static; 
+            margin: 70px 0 0 0;
+        }
+
+        .gameGoalImageForSafari {
+            width: 50vw;
+            margin: -13vh 0 0 0;
+            display: unset;
+        }
+        .G {
+            font-size: 1000px; 
+            padding: 0% 0 0 0; 
+            margin: 96% 0 0 0;
+        }
+
+        .oal{
+            font-size: 25vh;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+        .ame{
+            font-size: 25vh;
+            margin: 0 0 0 0; 
+            padding: 0 0 0 0;
+           
+        }
+        .circleBall {
+            margin: 0 0 70px 30px; 
+            padding: 0 0 0 0; 
+            width: 250px;
+        }
+        .textMain { 
+            display: block;
+            width: calc(100% - 12vw);
+            height: calc(100% - 16vh);
+            margin: 8vh 5vw 8vh 7vw;
+            padding: 0 0 0 0;
+        }
+        .textRent { 
+            display: block;
+            width: calc(100% - 10vw);
+            height: calc(100% - 20vh);
+            margin: 2vh 5vw 2vh 5vw;
+            padding: 0 0 0 0;
+        }
+        .textContacts { 
+            display: block;
+            width: calc(100% - 10vw);
+            height: calc(100% - 20vh);
+            margin: 2vh 5vw 2vh 5vw;
+            padding: 0 0 0 0;
+        }
+        .paragraph1 {
+            font-size: 1.5vw; 
+            text-align: left; 
+            margin: 0% 0 0 0;
+            line-height: 150%;
+        }
+        .paragraphBigWord {
+            font-size: 4vw;
+        }
+        .paragraphBigWord2 {
+            font-size: 2.5vw; 
+            text-align: center; 
+            margin: 2% 0 2% 0; 
+            line-height: 150%;
+        }
+        .paragraph2 {
+            font-size: 1.5vw; 
+            text-align: left; 
+            line-height: 150%; 
+            margin: -0.5% 0 0 0;
+        }
+
+        .paragraphBigLetter {
+            font-size: 4vw; 
+            margin: 0 0 0 0; 
+            padding: 0 0 0 -2%
+        }
+        .mergingLetterToSentence {
+            margin: 0 0 0 -1%;
+        }
+
+        .emphasis {
+            color: rgb(0, 0, 0); 
+            background-color: rgb(255,237,0); 
+            font-size: 2vw; 
+            padding: 0.1em 0.1em 0.1em 0.1em; 
+            margin: 0 0.2em 0 0.2em;
+        }
+                
+        .bridge {
+            width: 7%;  
+            background-color: rgb(255,237,0);
+            transform: rotate(90deg);
+        }
+        
+        .paragraph3 {
+            font-size: 1.5vw;
+            text-align: center; 
+            background-color:rgb(255,237,0); 
+            padding: 3vh 0 3vh 0; 
+            margin: 4vh 0 0vh 0;
+            color: rgb(0, 0, 0);
+            animation: none;
+        }
+        
+        .year {
+            font-size: 2vw; 
+            width: calc(100%/4); 
+            text-align: center; 
+            padding: 4vh 0 4vh 0; 
+            margin: 0; 
+            background-color: black; 
+            color: rgb(255,237,0);
+            animation: none;
+        }
+        .year2Layer {
+            font-size: 2vw; 
+            width: calc(100%/3); 
+            height: 0;  
+            text-align: center; 
+            margin: 0 0 0 0%; 
+            padding: 4vh 0 4vh 0; 
+            background-color: black; 
+            color: rgb(255,237,0);
+            animation: none;
+        }
+
+        .phoneMain {
+            display: inline-flex; 
+            background-color: rgb(255,237,0); 
+            width: 100%; 
+            height: 100%; 
+            margin: 0 0 0 0; 
+            padding: 0 0 0 0;
+        }
+        .phone1 {
+            margin: 2vw 0 2vw 0; 
+            padding: 0 0 0 0; 
+            height: calc(100% - 4vw);
+            width: calc(100% - 200px);
+        }
+        .phoneMove{
+            margin: 10vh 0 10vh 0;
+            padding: 0 0 0 0;
+            width: 100%;
+            height: calc(100% - 20vh);
+        }
+        
+        .phone2{
+            display: none;
+        }
+
+        .phoneParagraph{
+            display: block; 
+            position: static; 
+            margin: 70px 0 0 0;
+        }
+
+        .phoneImageForSafari {
+            width: 50vw;
+            margin: -13vh 0 0 0;
+            display: unset;
+        }
+
+        #contactsHeading {
+            margin: 0 0 0 0; 
+            font-size: 3.5vw;
+        }
+
+
+      }
+
+
+
+
+
+    
+    
+  
+  @media only screen and (max-device-width: 500px) and (max-device-height: 950px) and (min-device-width: 10px) and (min-device-height: 10px) {
+      html {
+        height: 100vh;
+      }
+      
+    body{
+        zoom: 100%;
+        background-color: rgb(255,237,0);
+    }
+
+
+
+    .Section1Slide1 {
+        width: 100vw;
+        margin: 0% 0 0% 0%;
+        content: url(imgftball/section1Slide1PhoneView.png);
+    }
+
+    /* Main page */ 
+    /* first slide */
+    .Section1Slide1 {
+        width: 100vw;
+        margin: 0% 0 0 0;
+        content: url(imgftball/templateSection1Slide1.png);
+    }
+
+    #section1Slide1PhoneOn {
+        display: none;
+    }
+    #section1Slide1PhoneOff {
+        display: unset;
+    }
+
+    .Section1Slide1FirstHalf{
+        width: 50vw;
+        display: block;
+        position: relative;
+    }
+
+    #squareMove {
+        background-color: black;
+        padding: 0% 0 0 0;
+        position: relative;
+        animation: squareMove 10s infinite;
+        animation-fill-mode: none;
+    }
+
+    @keyframes squareMove {
+        0%, 100%{
+            width: 17vw; 
+            height: 8vh; 
+            margin: 26vh 0 0 2vw;
+        }
+        10% {
+            width: 23vw; 
+            height: 13vh; 
+            margin: 3vh 0 0 2vw;
+        }
+        50% {
+            width: 23vw; 
+            height: 13vh; 
+            margin: 3vh 0 0 60vw;
+        }
+    }
+
+    #арендаПолейКонтейнер {
+        margin: 0vh 0 0vh -28vw;
+        padding: 5vh 0 0 10vw;
+    }
+
+    #арендаПолей {
+        font-size: 4vw; 
+        margin: 0vh 0 0 0vw;
+    } 
+
+    #да1{
+        font-size: 3vw; 
+        margin: 0 0 0 -16.5vw;
+    }
+
+    #любишьФутболКонтейнер{
+        display: block;
+        margin: 15vh 0 0 0vw;
+        position: absolute;
+    }
+    #любиКонтейнер {
+        display: inline-flex; 
+        margin: 0vh 0vw 3vh 6vw;
+    }
+
+    #люби {
+        font-size: 19vw;
+        margin: 0 0 0 0;
+    }
+    #ш {
+        font-size: 19vw;
+        color: rgb(255,237,0);
+        margin: 0 0 0 0;
+    }
+    #ь {
+        font-size: 19vw;
+        margin: 0 0 0 0;
+    }
+    #мКонтейнер {
+        display: inline-flex;
+        margin: 0 0 0 65vw;
+        padding: 0 0 0 0vw;
+        position: absolute;
+    }
+    #м {
+        font-size: 19vw;
+        color: rgb(255,237,0);
+        margin: 0 0 0 0;
+
+    }
+    #вопрос {
+        font-size: 19vw;
+        margin: 0 0 0 0;
+    }
+
+    #футбоКонтейнер {
+        display: inline-flex; 
+        margin: 0vh 0 0 -4vw; 
+        padding: 0 0 0 0; 
+        transform: rotate(-90deg);
+    }
+
+    #ф {
+        font-size: 15vw;
+        color: rgb(255,237,0);
+        margin: 0 0 0 0;
+    }
+    #утбол {
+        font-size: 15vw;
+        margin: 0 0 0 0;
+    }
+
+
+    .Section1Slide1SecondHalf{
+        width: 50vw;
+    }
+    #секцияФутболаКонтейнер {
+        margin: 5vh 0 0vh 15vw;
+        padding: 0 0 0 0vw;
+    }
+    #секцияФутбола{
+        font-size: 4vw; 
+        margin: 0vh 0 0vh 0vw;
+    }
+    #да2{
+        font-size: 3vw; 
+        margin: 0vh 0 0vh 19vw;
+    }
+    #stickmanPipeDateDots {
+        display: block;
+        margin: 17vh 0 0 0;
+    }
+    #stickmanPipe {
+        display: inline-flex;
+        margin: 0 0 0 15vw;
+    }
+    #section1Slide1Pipe {
+        background-color: black; 
+        width: 10vw; 
+        height: 55vh; 
+        margin: 0vh 0 0 18.5vw;
+    }
+    #lowerThreeDotsDateContainer{
+        display: inline-flex; 
+        margin: 0 0 0 -29vw;
+    }
+
+    #groundDate {
+        color: rgb(0, 0, 0); 
+        margin: 2.2vh 0 0 0vw; 
+        font-size: 7vw;
+    }
+    #groundBlackSquare {
+        width: 15.8vw;  
+        height: 15.8vw;
+        margin: 0 0 0 0;
+    }
+    #blackStickman {
+        margin: 41vh 0 0 -15vw; 
+        padding: 0 0 0 0; 
+        width: 30%; 
+        position: absolute;
+    }
+    .Section1Slide3 {
+        display: block;
+        width: 100%; 
+        margin: -10vh 0 0vh 0; 
+        padding: 0 0 0 0; 
+        line-height: 0;
+    }
+
+    table {
+        width: 90vw;
+        font-family: FootballFont;
+        font-size: 5vw;
+        margin: -4vh 0vw 1vh 7vw;
+        padding: 0vh 0 0vh 0vw;
+    }
+    th {
+        font-family: FootballFont;
+        padding: 5vh 0 5vh 0;
+        color: rgb(255,237,0);
+        background-color: #000000;
+    }
+    td {
+        font-family: FootballFont;
+        margin: 0vh 0 0vh 0;
+        padding: 4vh 0 2vh 4vw;
+        background-color: rgb(255,237,0);
+    }
+    td > a {
+        font-size: 5vw;
+    }
+    #phoneCoach > p {
+        font-size: 5vw;
+        margin: 0vh 0 0 -10vw;
+        padding: 4vh 0vw 3vh 0vw;
+    }
+
+
+
+    #section1Slide1PhoneOn {
+        display: unset;
+    }
+    #section1Slide1PhoneOff {
+        display: none;
+    }
+    .Section1Slide2 {
+        display: block; 
+        width: 100%; 
+        margin: 0 0 0 0; 
+        padding: 0 0 0 0; 
+        line-height: 0;
+    }
+    .Section1Slide2FirstHalf{
+        width: 100vw;
+    }
+    .Section1Slide2SecondHalf{
+        margin: 0 0 0 0; 
+        padding: 0 0 2vh 0; 
+        width: 100vw;
+    }
+
+    .Section1Slide2SecondHalf > .textRent {
+        display: block;
+        width: calc(100% - 12vw);
+        height: calc(100% - 16vh);
+        margin: 8vh 5vw 8vh 7vw;
+        padding: 0 0 0 0;
+}
+    
+
+
+
+.textMain { 
+    display: block;
+    width: calc(100% - 12vw);
+    margin: 3vh 5vw 7vh 7vw;
+    padding: 0 0 0 0;
+}
+.textRent { 
+    display: block;
+    width: calc(100% - 12vw);
+    height: calc(100% - 16vh);
+    margin: 8vh 5vw 8vh 7vw;
+    padding: 0 0 0 0;
+}
+.textContacts { 
+    display: block;
+    width: calc(100% - 12vw);
+    height: calc(100% - 16vh);
+    margin: 8vh 5vw 8vh 7vw;
+    padding: 0 0 0 0;
+}
+
+.paragraph1 {
+    font-size: 5vw; 
+    text-align: left; 
+    margin: 0% 0 0 0;
+    line-height: 150%;
+}
+.paragraphBigWord {
+    font-size: 10vw;
+}
+.paragraphBigWord2 {
+    font-size: 8vw; 
+    text-align: center; 
+    margin: 2% 0 2% 0; 
+    line-height: 150%;
+}
+.paragraphBigWord3 {
+    font-size: 4vw; 
+    text-align: center; 
+    margin: 2% 0 2% -20.5vw; 
+    line-height: 150%;
+}
+.paragraph2 {
+    font-size: 5vw; 
+    text-align: left; 
+    line-height: 150%; 
+    margin: -0.5% 0 0 0;
+}
+
+.paragraphBigLetter {
+    font-size: 10vw; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 -2%
+}
+.mergingLetterToSentence {
+    margin: 0vh 0 0 -1%;
+}
+.mergingLetterToSentence {
+    margin: 0 0 0 -1%;
+}
+.mergingLetterToSentence2 {
+    margin: 0 0 0 0vw;
+}
+
+
+.emphasis {
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255,237,0); 
+    font-size: 6vw; 
+    padding: 0.2em 0.1em 0.2em 0.1em; 
+    margin: 0 0.2em 0 0.0em;
+}
+.paragraph3 {
+    font-size: 5vw; 
+    text-align: center; 
+    background-color:rgb(255,237,0); 
+    padding: 3vh 0 3vh 0; 
+    margin: 4vh 0 0vh 0;
+    color: rgb(0, 0, 0);
+    animation: moveParagraph3 5s infinite;
+}
+
+.gameGoalMain {
+    display: inline-flex; 
+    background-color: rgb(255,237,0); 
+    width: 100%; 
+    margin: 0 0 15vh 0; 
+    padding: 0 0 0 0;
+}
+.gameGoal1 {
+    margin: 0 0 0% 0vw; 
+    padding: 0 0 0vh 0; 
+}
+
+.gameGoalMove{
+    margin: 0vh 0 0vh 0;
+    padding: 0vh 0 0 0;
+    width: 100%;
+}
+.gameGoal2{
+    display: inline-flex; 
+    padding: 0 0 0 0; 
+    margin: 0vh 0 0vh 0; 
+}
+
+.gameGoal{
+    display: block; 
+    margin: 37% 0 0vh 0;
+    padding: 0vh 0 0 0;
+}
+.gameGoal > figcaption {
+    font-size: 20vw;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.G {
+    font-size: 95vw;
+    padding: 0 0 0 0; 
+    margin:  50% 0 0vh 6vw;
+    position: relative;
+    animation: letterGMove 3s infinite, letterGFlash 1s infinite;
+}
+
+@keyframes letterGMove {
+    0%, 100% {
+        transform: rotate(-5deg);
+    }
+    50% {
+        transform: rotate(5deg);
+    }
+    
+}
+
+@keyframes letterGFlash {
+    0%, 100% {
+       
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    
+}
+
+.oal{
+    font-size: 20vw;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: 0;
+}
+.ame{
+    font-size: 20vw;
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0;
+    line-height: 0;
+}
+.circleBall {
+    margin: 15% 0 20% 13.5vw; 
+    padding: 0 0 0 0; 
+    width: 50%;
+}
+
+
+
+.bridge {
+    width: 5%;
+    background-color: rgb(255,237,0);
+    transform: rotate(90deg);
+}
+
+
+.year {
+    font-size: 4.5vw; 
+    padding: 6% 0 6% 0;
+    width: calc(100%/4); 
+    text-align: center;  
+    margin: 0; 
+    background-color: black; 
+    color: rgb(255,237,0);
+    
+}
+
+.year2Layer {
+    font-size: 5vw; 
+    width: calc(100%/3); 
+    height: 0;  
+    text-align: center; 
+    margin: 0 0 0 0%; 
+    padding: 7.5% 0 7.5% 0; 
+    background-color: black; 
+    color: rgb(255,237,0);
+}
+
+    .fixedMenu {
+        padding: 0% 0 0% 0;
+        height: 10vh;
+        background: none;
+      }
+      
+      .mainMenuButtons {
+        width: 100%;
+      }
+    
+    .label {
+        width: 20%;
+        height: 100%;
+        margin: 1% 0 0% 0;
+        padding: 0% 0 0% 0;
+        display: none;
+        
+    }
+    .label > a {
+        width: 100%;
+        height: 100%;
+        margin: 0% 0 0% 0;
+        padding: 0% 0 0% 0;
+    }
+    .label > a > p {
+        color: rgb(0, 0, 0);
+        font-size: 5vw;
+        margin: 7% 0 0% 4%;
+        padding: 0 0 0 0;
+    }
+    .references > p {
+        font-size: 3vw;
+    }
+    button.references:hover > div > p {
+        color: rgb(255,237,0)!important;
+    }
+    button{
+        background: none;
+        border: none;
+        
+    }
+    button.references {
+        width: 45%;
+        transition: 0.5s;
+        padding: 5% 0 0 0;
+    }
+    
+    button.references:hover {
+        background-color: rgb(0, 0, 0)!important;
+    }
+    button:hover > p {
+        color: rgb(255,237,0);
+    }
+    
+    
+    
+    .sidedButtonContainer{
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        right: 0;
+        width: 25%;
+        height: 100%;
+        margin: 2% 0% 0% 0%;
+    }
+    .bar1, .bar2, .bar3 {
+        width: 90%;
+        height: 18%;
+        background-color: #000000;
+        margin: 3% 0% 0 10%;
+        padding: 0 0 0 0;
+        transition: 1s;
+    }
+    .bar1:hover, .bar2:hover, .bar3:hover{
+        background-color:  rgb(255,237,0);
+    }
+    .change .bar1 {
+        width: 100%;
+    }
+    .change .bar2{
+        width: 100%;
+    }
+    .change .bar3 {
+        width: 100%;
+    }
+    
+    .menu {
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        left: 85%;
+        opacity: 0;
+        width: 10%;
+        margin: 4.5% 0 0 0;
+        transition: 1.5s;
+    }
+    .menuShowOnOff {
+        opacity: 1;
+        width: 15%;
+    }
+    .menuLabel {
+        display: inline-flex;
+    }
+    .bigScreen {
+        display: block;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+     }
+    
+    .blockInsideSection {
+        display: block;
+        width: 100vw;
+        padding: 0 0 0vh 0;
+        margin: 0% 0 0 0;
+     }
+
+
+     /* Section 2 */
+
+     .Section2Slide1PhoneOn {
+        width: 50vw;
+        padding: 0 0 2vh 0;
+        margin: 0% 0 -10vh 0;
+        display: block;
+     } 
+     .Section2Slide1PhoneOff{
+        width: 50vw;
+        padding: 0 0 2vh 0;
+        margin: 0% 0 0 0;
+        display: none;
+
+     }
+
+     #bigScreenRent {
+        margin: 0 0 -15vh 0;
+     }
+
+.gateContainer1 {
+    display: inline-flex;
+    padding: 0 0 0 0;
+    margin: 5vh 0 0 0;
+}
+
+.gateContainer2 {
+    display: inline-flex;
+    margin: 0 0 0 0;
+}
+.eachGate {
+    margin: 4vh 2vw 8vh 0;
+    display: block;
+}
+.gateName1{
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 3vh 0 0vh 4vw;
+}
+.gateSize1 {
+    margin: 0vh 0 0 4vw;
+}
+.gateSize1{
+    font-size: 5vw;
+    text-align: center;
+    padding: 2vh 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate1 {
+    width: 48vw;
+    margin: 0 0 0vh 4vw;
+}
+
+
+
+
+
+.gateName2 {
+    margin: -5vh 0 0 5vw ;
+}
+.gateName2 {
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.gateSize2 {
+    margin: 0vh 0 0 5vw;
+}
+.gateSize2 {
+    font-size: 5vw;
+    text-align: center;
+    padding: 0% 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate2 {
+    width: 46vw;
+    margin: 0vh 0 0vh 5vw;
+}
+
+
+
+
+
+
+.gateName3 {
+    margin: -5vh 0% 2vh 1vw ;
+}
+.gateName3 {
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.gateSize3 {
+    margin: 0.5vh 0 0 1.5vw;
+}
+.gateSize3 {
+    font-size: 5vw;
+    text-align: center;
+    padding: 0% 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate3 {
+    width: 41vw;
+    margin: 0vh 2vw 0 3vw;
+}
+
+
+
+
+.gateName4 {
+    margin: 3vh 0% 0 0%;
+}
+.gateName4  {
+    font-size: 5vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.gateSize4 {
+    margin: 0.5vh 0 0 0;
+}
+.gateSize4 {
+    font-size: 5vw;
+    text-align: center;
+    padding: 0% 0 0 0;
+    color: rgb(0, 0, 0);
+}
+
+.gate4 {
+    width: 38vw;
+    margin: 0.5vh 2vw 0 3vw;
+}
+
+
+
+
+/* sport base presentation - Section 2 Slide 2*/
+.Section2Slide2LaptopBrowser{
+    width: 50vw;
+    padding: 0 0 2vh 0;
+    margin: 0% 0 0 0vw;
+    display: none;
+ }
+ #sportBaseBlock {
+    margin: 0vh 0 15vh 0; 
+    width: 100vw
+ }
+
+#sportBase {
+    display: inline-flex;
+    position: relative;
+}
+
+#sportBase > div {
+    margin: 5vh 0 0 0vw;
+}
+
+#sportBase > div > .paragraph1 {
+    position: absolute;
+    margin: 5vh 0 0 0;
+}
+
+#sportBaseParagraph2 {
+    position: absolute;
+    margin: 30vh 0 5vh 0;
+}
+#sportBaseMerginLetterToSentence {
+    margin: 0 0% 0 -0.4vw;
+}
+
+#sportBase > img {
+    width: 60vw;  
+    height: 50vh;
+    margin: 0 0 0 35vw;
+}
+
+
+.Section2Slide2PhoneBrowser {
+    width: 100vw;
+    padding: 0 0 10vh 0;
+    margin: 0% 0 0vh 0;
+    display: block;
+ } 
+ .Section2Slide3PhoneBrowser {
+    width: 100vw;
+    padding: 0 0 0 0;
+    margin: 0% 0 0vh 0;
+    display: block;
+ } 
+ .Section2Slide3PhoneBrowser > img {
+    width: 110vw;
+    padding: 0 0 0 0;
+    margin: -5vh 0 -5vh -5vw;
+ }
+
+#sportBase2 {
+    display: inline-flex;
+    position: relative;
+}
+#sportBaseOrder2 {
+    display: block;
+    position: relative;
+    padding: 0 0 0 0;
+}
+#sportBaseOrder2 > .paragraph2 {
+    margin: 5vh 0 0 0;
+    padding: 0 0 5vh 0;
+}
+
+#sportBase2 > div {
+    margin: 5vh 0 0 -5vw;
+}
+
+#sportBase2 > div > .paragraph1 {
+    position: absolute;
+    margin: 5vh 0 10vh 0;
+}
+
+#sportBaseParagraph2 {
+    position: absolute;
+    margin: 85% 0 0vh 0;
+    padding: 0 0 0 0;
+}
+#sportBaseMerginLetterToSentence {
+    margin: 0 0% 0 -1.5vw;
+}
+
+#fieldViewPhoneBrowser{
+    width: 100vw; 
+    margin: 0 0 0 1vw;
+}
+
+
+#section1Slide5LaptopView {
+    width: 100vw;
+    display: none;
+}
+
+#section1Slide5PhoneView{
+    width: 100vw;
+    display: block;
+}
+
+#textPhotoSection {
+    width: 100vw;
+    margin: -2vh 0 0 0;
+    padding: 2vh 0 4vh 0;
+}
+#textPhotoSection > p {
+    font-size: 10vw;
+    margin: 0 0 0 7vw;
+    padding: 0 0 0 0;
+    text-align: left;
+}
+#photoSectionSlideShow {
+    width: 60vw;
+    display: block;
+    padding: 0vh 0 0vh 0;
+    margin: 0 0vw 0 0vw;
+}
+#stickManButtons {
+    display: inline-flex;
+    margin: -15vh 0 0 0;
+    padding: 0vh 0 0 0;
+    animation: none;
+    -webkit-animation: none;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+@keyframes yellowStickmanMove {
+    0%  {
+        margin: -15vh 0 0 5vw;
+    }
+    100% {
+        margin: -15vh 0 0 58vw;
+    }
+    
+}
+
+#stickmanLeftButton {
+    width: 15vw;
+    margin: -10vh 0 0 5.5vw;
+    padding: 0 0 0 5vw;
+    background: none;
+}
+#stickmanLeftButton > img{
+    width: 15vw;
+}
+#stickmanRightButton {
+    width: 6vw;
+    background: none;
+    margin: 0vh 0 0 30vw;
+}
+#stickmanRightButton > img{
+    width: 6vw;
+}
+#photoSection {
+    width: 85vw;
+    background-color: #000000;
+    height: 30vh;
+    margin: 0 0vw -2vh 7.5vw;
+    padding: 3vh 0 0vh 0;
+}
+#field_1 {
+    width: 85vw;
+    margin: 0 0 0 0vw;
+    display: inline;
+}
+#field_2 {
+    width: 85vw;
+    margin: 0 0 0 0vw;
+    display: none;
+}
+#field_3 {
+    width: 85vw;
+    margin: 0 0 0 0vw;
+    display: none;
+}
+#field_4 {
+    width: 85vw;
+    margin: 0 0 0 0vw;
+    display: none;
+}
+#field_5 {
+    width: 85vw;
+    margin: 0 0 0 0vw;
+    display: none;
+}
+#field_6 {
+    width: 85vw;
+    margin: 0 0 0 0vw;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.mainPhone > p {
+    font-size: 2vw;
+    padding: 2vh 0 2vh 0;
+    color:black;
+    background-color: rgb(255,237,0);
+}
+.arrow {
+    transform: rotate(-180deg); 
+    width: 10vw; 
+    animation: arrowMove 3s infinite;
+}
+
+@keyframes arrowMove {
+    0%,100% {
+        margin: 0 40% 10% 40%;
+    
+    }
+    50% {
+        margin: 0 35% 10% 35%;
+    }
+    
+}
+
+#mapSecondSlide2 {
+    padding: 0 0 0 0; 
+    margin: 0 2vw 10vh 3vw; 
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+
+#rentSecondSlide {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    display: block;
+}
+#arrow {
+    display: none;
+}
+#rentDown {
+    display: none;
+}
+#phone{
+    display: none;
+}
+#rentDown2 {
+    display: unset;
+}
+#phone2 {
+    display: unset;
+}
+#жетысуский{
+    margin: 2vh 0 0vh 0; 
+    font-size: 7vw;
+
+}
+
+#месторасположение {
+    font-size: 10vw;
+}
+
+#mapSecondSlide {
+    padding: 3vh 1vw 10vh 1vw; 
+    margin: 12vh 3vw -10vh 3vw; 
+    background-color: rgb(0, 0, 0);
+    display: none;
+}
+#mapSecondSlide > a > img {
+    width: 90vw; 
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0
+
+}
+#mapSecondSlide2 {
+    padding: 0 0 0 0; 
+    margin: -6vh 2vw 0 7vw; 
+    background-color: rgb(0, 0, 0);
+    display: unset;
+}
+
+#mapSecondSlide2 > a > img {
+    width: 85vw; 
+    padding: 0 0 0 0; 
+    margin: 0 0 0 0
+
+}
+#rentSecondSlide {
+    display: none;
+}
+
+#rentSecondSlide2 {
+    display: block;
+}
+
+#rentSecondSlide2 > figure {
+    display: block;
+}
+#rentSecondSlide2_1 {
+    margin: 3.5vh 0 8vh 0; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+#rentSecondSlide2_1 > img {
+    width: 14vw;
+    margin: 5% 0 0 11vw;
+}
+#rentSecondSlide2_1 > figcaption {
+    font-size: 5vw; 
+    padding: 0 0 0 1vw;
+    margin: -7% 0 0 12vw;
+}
+#rentSecondSlide2_2 {
+    margin: -2vh 0 2vh 0.5vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+
+#rentSecondSlide2_2 > img {
+    width: 12vw;
+    margin: 4% 0 0 10vw;
+}
+#rentSecondSlide2_2 > #one {
+    font-size: 5vw; 
+    padding: 0;
+    margin: -11% 0 0 20vw;
+}
+#rentSecondSlide2_2 > #two {
+    font-size: 5vw; 
+    padding: 0;
+    margin: 0vh 0 0 -11.5vw;
+}
+#rentSecondSlide2_3 {
+    margin: 5vh 0 0 0vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+#rentSecondSlide2_3 > img {
+    width: 8vw; 
+    transform: rotate(90deg);
+    margin: 2% 0 0 13vw;
+}
+#rentSecondSlide2_3 > div > #one {
+    font-size: 5vw; 
+    padding: 0;
+    margin: -15.5% 0 0 22vw;
+}
+
+#rentSecondSlide2_3 > div > #two {
+    font-size: 5vw; 
+    padding: 0vh 0 0 0vw; 
+    margin: 0 0 0 8.5vw;
+}
+#rentSecondSlide2_3 > div > #three {
+    font-size: 5vw; 
+    padding: 0vh 0 0 0vw; 
+    margin: 0 0 0 21vw;
+}
+#rentSecondSlide2_4 {
+    margin: 5vh 0 0 0.5vw; 
+    padding: 0 0 0 0; 
+    display: inline-flex;
+}
+#rentSecondSlide2_4 > img {
+    width: 8vw;
+    margin: 3% 0 0 13vw;
+}
+#rentSecondSlide2_4 > div > #one {
+    font-size: 5vw; 
+    padding: 0;
+    margin: -16% 0 0 24vw;
+}
+
+#rentSecondSlide2_4 > div > #two {
+    font-size: 5vw; 
+    padding: 0vh 0 0 0vw; 
+    margin: 0 0 0 18vw
+}
+#rentSecondSlide2_4 > div > #three {
+    font-size: 5vw; 
+    padding: 0vh 0 10vh 0vw; 
+    margin: 0 0 0 22.5vw
+}
+
+
+#phoneMainSection {
+    display: block; 
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 0 0 0 0; 
+    line-height: 0;
+}
+#phoneSection {
+    width: 100vw; 
+    display: block;
+}
+
+.p {
+    font-size: 73vw;
+    padding: 0 0 0 0; 
+    margin: 22% 0% 0 20%;
+    position: unset;
+}
+.hone {
+    font-size: 30vw;
+    margin: -19% 0 0 15%; 
+    padding: 0 0 0 0;
+}
+
+.phone {
+    width: 25vw;
+    margin: -55% 0 55% 35%;
+    animation: phoneMove 0.5s infinite;
+}
+@keyframes phoneMove {
+    0%, 100% {
+        transform: rotate(2deg);
+    }
+    50% {
+        transform: rotate(-2deg);
+    }
+    
+}
+
+.phoneImageForSafari {
+    display: none;
+}
+
+
+.phoneMain {
+    display: inline-flex; 
+    background-color: rgb(255,237,0); 
+    width: 100%; 
+    margin: 0 0 0 0; 
+    padding: 15% 0 15% 0;
+}
+.phone1 {
+    margin: 2vw 0 2vw 0; 
+    padding: 0 0 0 0; 
+    height: calc(100% - 4vw);
+    width: calc(100% - 200px);
+}
+.phoneMove2 {
+    display: block; 
+    position: static; 
+    margin: 2% 0 0 -5%;
+
+}
+.phoneMove{
+    margin: 17vh 0 10vh 5vw;
+    padding: 0 0 0 0;
+    width: 100%;
+    height: calc(100% - 20vh);
+}
+
+.phone2{
+    display: inline-flex; 
+    padding: 0 0 0 0; 
+    margin: 2vh 0 2vh 0; 
+    height: calc(100% - 20vh)
+}
+
+.phoneParagraph{
+    display: block; 
+    position: static; 
+    margin: 70px 0 0 0;
+}
+
+
+#contactsText {
+    margin-top: 12%; 
+    margin-bottom: 10%; 
+    width: 85vw; 
+    margin-left: 15%; 
+    margin-right: 0;
+    padding-bottom: 25%;
+}
+#contactsText > #messageSample > .paragraphBigLetter  {
+    font-size: 7vw;
+    padding: 0 0 0 0vw;
+}
+
+#contactsText > #messageSample > .mergingLetterToSentence2  {
+    font-size: 4vw;
+    margin: 0 0 0 -0.7vw;
+}
+
+
+
+
+#contactsRent {
+    width: 100%;
+}
+
+#contactsHeading {
+    margin: 10vh 0 1vh 0; 
+    font-size: 9vw;
+    display: block;
+}
+
+#contactsHeadingParagraph{
+    font-size: 4.17vw;
+    line-height: 150%;
+
+}
+
+#contactsBigSeparatingWord{
+    font-size: 10vw;
+    margin: 12% 0 10% 0;
+}
+
+#contactsBigLetter {
+    font-size: 10vw;
+    margin: 0 -1.2vw 0 0;
+}
+
+#phoneContacts > p {
+    font-size: 5vw;
+    padding: 2vh 0 2vh 0;
+    color:black;
+    background-color: rgb(255,237,0);
+}
+
+#contactsInstagram {
+    width: 18vw; 
+    margin: 0vh 0 0 20vw;
+}
+#instagram { 
+    display: inline-flex; 
+    background: none; 
+    width: 100vw; 
+    margin: -5vh 0 0 0; 
+    padding: 5vh 0 5vh 0;
+    background-color: rgb(255,237,0);
+}
+
+#instagram > p {
+    font-size: 10vw;
+    padding: 4.5vh 0 0 0;
+    margin: 0 00 0vw;
+}
+
+
+
+
+
+
+
+
+
+      
+
+}
+
+
