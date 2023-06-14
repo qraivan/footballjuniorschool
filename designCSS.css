@@ -1251,6 +1251,10 @@ table {
     margin: 0 0vw -3vh 2vw;
     padding: 3vh 0 20vh 0;
 }
+#stickmanDescription {
+    width: 5vw;
+    margin: 0 0 0 5vw;
+}
 #field1 {
     width: 53vw;
     margin: 0 0 0 1vw;
