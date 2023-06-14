@@ -1473,7 +1473,7 @@ table {
         .circleBall {
             margin: 0 0 70px 30px; 
             padding: 0 0 0 0; 
-            width: 250px;
+            width: 20vw;
         }
         .textMain { 
             display: block;
@@ -1991,7 +1991,7 @@ table {
 
 .gameGoal{
     display: block; 
-    margin: 37% 0 0vh 0;
+    margin: 43% 0 0vh 10vw;
     padding: 0vh 0 0 0;
 }
 .gameGoal > figcaption {
@@ -2041,9 +2041,9 @@ table {
     line-height: 0;
 }
 .circleBall {
-    margin: 15% 0 20% 13.5vw; 
+    margin: 30% 0 40% 1vw; 
     padding: 0 0 0 0; 
-    width: 50%;
+    width: 30vw;
 }
 
 
