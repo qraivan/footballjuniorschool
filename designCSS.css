@@ -1388,22 +1388,48 @@ table {
     margin-left: 14%; 
     margin-right: 0;
 }
+#socialContainer {
+    display: block; 
+    margin: -10vh 0 0 0;
+}
+
+#socialContainer {
+    display: inline-flex; 
+    margin: -10vh 0 0 0;
+}
 #contactsInstagram {
     width: 5vw; 
-    margin: 0vh 0 0 13vw;
+    margin: 0vh 0 5vh 6vw;
 }
 #instagram { 
     display: inline-flex; 
     background: none; 
-    width: 100vw; 
+    width: 20vw; 
     margin: 23.3vh 0 0 0; 
     padding: 2vh 0 2vh 0;
 }
 
 #instagram > p {
-    font-size: 5vw;
+    font-size: 3vw;
     padding: 2% 0 0 0;
-    margin: 0 0 0 -5vw;
+    margin: 12% 0 0% 2vw;
+}
+#contactsYoutube {
+    width: 5vw; 
+    margin: 1vh 0 0 10vw;
+}
+#youtube { 
+    display: inline-flex; 
+    background: none; 
+    width: 20vw; 
+    margin: 23.3vh 0 0 0; 
+    padding: 2vh 0 2vh 0;
+}
+
+#youtube > p {
+    font-size: 3vw;
+    padding: 2% 0 0 0;
+    margin: 12% 0 0% 2vw;
 }
 
 
@@ -2655,6 +2681,11 @@ table {
     background-color: rgb(255,237,0);
 }
 
+#socialContainer {
+    display: block; 
+    margin: -10vh 0 0 0;
+}
+
 #contactsInstagram {
     width: 18vw; 
     margin: 0vh 0 0 20vw;
@@ -2663,17 +2694,36 @@ table {
     display: inline-flex; 
     background: none; 
     width: 100vw; 
-    margin: -5vh 0 0 0; 
+    margin: 5vh 0 0 0; 
     padding: 5vh 0 5vh 0;
     background-color: rgb(255,237,0);
 }
 
 #instagram > p {
     font-size: 10vw;
-    padding: 4.5vh 0 0 0;
-    margin: 0 00 0vw;
+    padding: 0vh 0 0 0;
+    margin: 10% 0 0% 8vw;
 }
 
+
+#contactsYoutube {
+    width: 18vw; 
+    margin: 5vh 0 0 20vw;
+}
+#youtube { 
+    display: inline-flex; 
+    background: none; 
+    width: 100vw; 
+    margin: -5vh 0 0 0; 
+    padding: 0vh 0 5vh 0;
+    background-color: rgb(255,237,0);
+}
+
+#youtube > p {
+    font-size: 10vw;
+    padding: 4.5vh 0 0 0;
+    margin: 9% 0 0% 8vw;
+}
 
 
 
