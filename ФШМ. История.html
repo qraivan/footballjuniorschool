@@ -11,7 +11,6 @@
                 
                 <div class="mainMenuButtons" style="display: inline-flex;">
                     <button id="1" class="references" type="button" style="background-color:rgb(0, 0, 0);">
-                        <img  class="button1" src="imgftball/button1.png">
                         <div class="references">
                             <p class="click" id="textColor1" style="color: rgb(255,237,0)"> Школа </p>
                         </div>
@@ -144,7 +143,7 @@
                     <br>
                     
                     <div id="[1][2]Section" style="width: 100vw; display: unset; margin: 0 0 0 0">
-                        <div class="Section1Slide2">
+                        <div class="Section1Slide2" id="Section1Slide2">
                             <div class="Section1Slide2FirstHalf" id="section1Slide1PhoneOff">
                                 <div class="textMain">
                                     <p class="paragraph1">  
@@ -625,5 +624,11 @@
                     </div>
                 </div>
             </div>
+            <script> 
+                if (document.getElementById("stickmanContainer").style.display == "none") {
+                    document.getElementById("section1Slide1PhoneOff").style.display = "none";
+                    document.getElementById("Section1Slide2").style.marginTop = "-20vh";
+                }
+            </script>
         </body>
     </html>
