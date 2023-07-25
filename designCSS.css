@@ -1199,7 +1199,8 @@ table {
 
 #textPhotoSection {
     width: 40vw;
-    margin: 5vh 0 0 0;
+    margin: 5vh 0 0 0vw;
+    display: block;
 }
 #textPhotoSection > p {
     font-size: 3vw;
@@ -1212,42 +1213,39 @@ table {
 }
 #stickManButtons {
     display: inline-flex;
-    margin: -15vh 0 0 0vw;
+    margin: 10vh 0 0 2vw;
     padding: 0 0 0 0;
-    animation: none;
-    -webkit-animation: none;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
 }
-@keyframes yellowStickmanMove {
-    0%  {
-        margin: -15vh 0 0 5vw;
-    }
-    100% {
-        margin: -15vh 0 0 58vw;
-    }
-    
-}
+
 #stickmanLeftButton1 {
-    width: 6vw;
-    margin: 0 0 0 5.5vw;
+    width: 7vw;
+    margin: 0 0 0 0vw;
     background: none;
 }
 #stickmanLeftButton1 > img{
-    width: 6vw;
+    width: 10vw;
 }
-#stickmanRightButton {
-    width: 6vw;
+#stickmanLeftButton2 {
+    width: 7vw;
+    margin: 0 0 0 5.5vw;
     background: none;
-    margin: 0vh 0 0 30vw;
 }
-#stickmanRightButton > img{
-    width: 6vw;
+#stickmanLeftButton2 > img{
+    width: 10vw;
 }
+#stickmanLeftButton3 {
+    width: 7vw;
+    margin: 0 0 0 5.5vw;
+    background: none;
+}
+#stickmanLeftButton3 > img{
+    width: 10vw;
+}
+
 #photoSection {
     width: 55vw;
     background-color: #000000;
-    height: 70vh;
+    height: 45vh;
     margin: 0 0vw -3vh 2vw;
     padding: 3vh 0 20vh 0;
 }
@@ -1258,34 +1256,64 @@ table {
 #field1 {
     width: 53vw;
     margin: 0 0 0 1vw;
-    display: unset;
+    display: inline;
 }
 #field2 {
     width: 53vw;
     margin: 0 0 0 1vw;
-    display: none;
+    display: inline;
 }
 #field3 {
     width: 53vw;
     margin: 0 0 0 1vw;
-    display: none;
+    display: inline;
 }
 #field4 {
     width: 53vw;
     margin: 0 0 0 1vw;
-    display: none;
+    display: inline;
 }
 #field5 {
     width: 53vw;
     margin: 0 0 0 1vw;
-    display: none;
+    display: inline;
 }
 #field6 {
     width: 53vw;
     margin: 0 0 0 1vw;
-    display: none;
+    display: inline;
 }
 
+#field11 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: block;
+}
+#field22 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field33 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field44 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field55 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
+#field66 {
+    width: 53vw;
+    margin: 0 0 0 1vw;
+    display: none;
+}
 #section1Slide5PhoneView{
     width: 100vw;
     display: none;
@@ -1395,7 +1423,7 @@ table {
 
 #socialContainer {
     display: inline-flex; 
-    margin: -10vh 0 0 0;
+    margin: -7vh 0 0 0;
 }
 #contactsInstagram {
     width: 5vw; 
@@ -2275,80 +2303,119 @@ table {
 }
 #stickManButtons {
     display: inline-flex;
-    margin: -15vh 0 0 0;
+    margin: 0vh 0 0vh 0;
     padding: 0vh 0 0 0;
-    animation: none;
-    -webkit-animation: none;
-    animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-}
-@keyframes yellowStickmanMove {
-    0%  {
-        margin: -15vh 0 0 5vw;
-    }
-    100% {
-        margin: -15vh 0 0 58vw;
-    }
     
 }
 
 #stickmanLeftButton {
-    width: 15vw;
-    margin: -10vh 0 0 5.5vw;
+    width: 30vw;
+    margin: 5vh 0 0 0vw;
     padding: 0 0 0 5vw;
     background: none;
 }
 #stickmanLeftButton > img{
-    width: 15vw;
+    width: 25vw;
 }
-#stickmanRightButton {
-    width: 6vw;
+
+#stickmanLeftButton2 {
+    width: 30vw;
+    margin: 5vh 0 0 0vw;
+    padding: 0 0 0 5vw;
     background: none;
-    margin: 0vh 0 0 30vw;
 }
-#stickmanRightButton > img{
-    width: 6vw;
+#stickmanLeftButton2 > img{
+    width: 25vw;
 }
+
+
+#stickmanLeftButton3 {
+    width: 30vw;
+    margin: 5vh 0 0 0vw;
+    padding: 0 0 0 5vw;
+    background: none;
+}
+#stickmanLeftButton3 > img{
+    width: 25vw;
+}
+
+
 #photoSection {
     width: 85vw;
     background-color: #000000;
-    height: 35vh;
-    margin: 0 0vw -2vh 7.5vw;
-    padding: 3vh 0 0vh 0;
+    height: 35%;
+    margin: 0 0vw -2vh 4vw;
+    padding: 3vh 3vw 0vh 4vw;
 }
 #stickmanDescription {
     width: 15vw;
     margin: 0 0 0 5vw;
 }
 #field_1 {
-    width: 85vw;
+    width: 90vw;
+    height: 40vh;
     margin: 0 0 0 0vw;
-    display: inline;
+    display: block;
 }
 #field_2 {
-    width: 85vw;
+    width: 90vw;
+    height: 40vh;
     margin: 0 0 0 0vw;
     display: none;
 }
 #field_3 {
-    width: 85vw;
+    width: 90vw;
+    height: 40vh;
     margin: 0 0 0 0vw;
     display: none;
 }
 #field_4 {
-    width: 85vw;
+    width: 90vw;
+    height: 40vh;
     margin: 0 0 0 0vw;
     display: none;
 }
 #field_5 {
-    width: 85vw;
+    width: 90vw;
+    height: 40vh;
     margin: 0 0 0 0vw;
     display: none;
 }
 #field_6 {
-    width: 85vw;
+    width: 90vw;
+    height: 40vh;
     margin: 0 0 0 0vw;
     display: none;
+}
+#field1_1 {
+    width: 90vw;
+    margin: 0 0 0 -3vw;
+    display: inline;
+}
+#field2_2 {
+    width: 90vw;
+    margin: 0 0 0 -3vw;
+    display: inline;
+}
+#field3_3 {
+    width: 90vw;
+    margin: 0 0 0 -3vw;
+    display: inline;
+}
+#field4_4 {
+    width: 90vw;
+    margin: 0 0 0 -3vw;
+    display: inline;
+}
+#field5_5 {
+    width: 90vw;
+    margin: 0 0 0 -3vw;
+    display: inline;
+}
+#field6_6 {
+    width: 90vw;
+    margin: 0 0 0 -3vw;
+    display: inline;
 }
 
 
@@ -2722,7 +2789,7 @@ table {
 #youtube > p {
     font-size: 10vw;
     padding: 4.5vh 0 0 0;
-    margin: 9% 0 0% 8vw;
+    margin: 9% 0 0% 12vw;
 }
 
 
