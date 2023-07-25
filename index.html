@@ -11,7 +11,6 @@
                 
                 <div class="mainMenuButtons" style="display: inline-flex;">
                     <button id="1" class="references" type="button" style="background-color:rgb(0, 0, 0);">
-                        <img  class="button1" src="imgftball/button1.png">
                         <div class="references">
                             <p class="click" id="textColor1" style="color: rgb(255,237,0)"> Главная </p>
                         </div>
@@ -103,7 +102,6 @@
                                 <div class="gameGoalMain">
                                     <div class="gameGoal1">
                                         <div class="gameGoalMove">
-                                            <img src="imgftball/gameGoal.png" class="gameGoalImageForSafari"> 
                                             <div class="gameGoal2">
                                                 <div>
                                                     <p class="G"> G </p>
@@ -595,34 +593,65 @@
                                     <p>
                                         Фотосекция
                                     </p>
-                                    <div>
-                                            <p style="font-size: 1.5vw; margin: 0vh 0 0 7vw; text-align: left;"> нажмите на бегущего человечка, чтобы пролистать фотографии вправо</p>
-                                            <br>
-                                        
-                                            <p style="font-size: 1.5vw; margin: 0vh 0 0 7vw; text-align: left;"> #1 - большое поле</p>
-                                            <br>
-                                            
-                                            <p style="font-size: 1.5vw; margin: 0vh 0 0 7vw; text-align: left;"> #2 - вид с большого поля на среднее с полем "Купол" </p>
-                                            <br>
-                                            
-                                            <p style="font-size: 1.5vw; margin: 0vh 0 0 7vw; text-align: left;"> #3 - вид изнутри поля "Купол"</p>
-                                            <br>
-                                        
-                                            <p style="font-size: 1.5vw; margin: 0vh 0 0 7vw; text-align: left;">#4 - среднее поле </p>
+                                    <p style="font-size: 2vw; margin: 3vh 0 0 4vw; text-align: left;">
+                                        <small  style="margin: 0 0 0 0"> Нажмите на бегущего человечка, чтобы просмотреть фотографии полей </small>
+                                    </p>
+                                    <div id="stickManButtons">
+                                        <button id="stickmanLeftButton1" type="button" onclick="stickmanLeftButton1();">
+                                            <img src="imgftball/blackStickmanGif.gif">
+                                        </button>
+                                        <button id="stickmanLeftButton2" type="button" onclick="stickmanLeftButton1();">
+                                            <img src="imgftball/blackStickmanGif.gif">
+                                        </button>
+                                        <button id="stickmanLeftButton3" type="button" onclick="stickmanLeftButton1();">
+                                            <img src="imgftball/blackStickmanGif.gif">
+                                        </button>
                                     </div>
                                 </div>
                                 <div id="photoSectionSlideShow">
                                     <div id="photoSection">
-                                        <img id="field1" src="imgftball/bigFieldModified.JPEG">
-                                        <img id="field2" src="imgftball/middleField.JPEG">
-                                        <img id="field3" src="imgftball/sealedField.JPG">
-                                        <img id="field4" src="imgftball/wholeViewField.JPG">
-                                        <img id="field5" src="imgftball/wholeViewField.JPG">
-                                    </div>
-                                    <div id="stickManButtons">
-                                        <button id="stickmanLeftButton1" type="button" onclick="stickmanLeftButton1();">
-                                            <img src="imgftball/yellowStickman.gif">
-                                        </button>
+                                        <figure style="margin: 0 0 0vh 0;" id="field11">
+                                            <img id="field1" src="imgftball/bigFieldModified.JPEG">
+                                            <figcaption style="font-size: 2.5vw; margin: 9vh 1vw 0 0vw; color: rgb(255,237,0); text-align: right;"> 
+                                                Большое поле
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field22">
+                                            <img id="field2" src="imgftball/middleField.JPEG">
+                                            
+                                            <figcaption  style="font-size: 2.5vw; margin: 16.5vh 1vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Среднее поле
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field33">
+                                            <img id="field3" src="imgftball/sealedField.JPG">
+                                            <figcaption style="font-size: 2.5vw; margin: 9vh 1vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Вид изнутри поля "Купол"
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field44">
+                                            <img id="field4" src="imgftball/wholeViewField.JPG">
+                                            <figcaption style="font-size: 2.5vw; margin: 18vh 1vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Вид с большого поля на среднее с полем "Купол"
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field55">
+                                            <img id="field5" src="imgftball/wholeViewField.JPG">
+                                            <figcaption style="font-size: 2.5vw; margin: 18vh 1vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                               Вид с большого поля на среднее с полем "Купол"
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field66">
+                                            <img id="field6" src="imgftball/wholeViewField.JPG">
+                                            <figcaption style="font-size: 2.5vw; margin: 18vh 1vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Вид с большого поля на среднее с полем "Купол"
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                 </div>
                             </div>
@@ -631,41 +660,69 @@
                                     <p>
                                         Фотосекция
                                     </p>
-                                    
+                                    <p style="font-size: 6vw; margin: 3vh 0 0 7vw">
+                                        <small  style="margin: 0 0 0 0"> Нажмите на бегущего человечка, <br> чтобы просмотреть фотографии полей </small>
+                                    </p>
                                 </div>
                                 <div id="photoSectionSlideShow">
                                     <div id="photoSection">
-                                        <img id="field_1" src="imgftball/bigFieldModified.JPEG">
-                                        <img id="field_2" src="imgftball/middleField.JPEG">
-                                        <img id="field_3" src="imgftball/sealedField.JPG">
-                                        <img id="field_4" src="imgftball/wholeViewField.JPG">
-                                        <img id="field_5" src="imgftball/wholeViewField.JPG">
+                                        <figure style="margin: 0 0 0vh 0;" id="field_1">
+                                            <img id="field1_1" src="imgftball/bigFieldModified.JPEG">
+                                            <figcaption style="font-size: 5vw; margin: 7vh 4vw 0 0vw; color: rgb(255,237,0); text-align: right;"> 
+                                                Большое поле
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field_2">
+                                            <img id="field2_2" src="imgftball/middleField.JPEG">
+                                            
+                                            <figcaption  style="font-size: 5vw; margin: 10vh 4vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Среднее поле
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field_3">
+                                            <img id="field3_3" src="imgftball/sealedField.JPG">
+                                            <figcaption style="font-size: 5vw; margin: 7vh 4vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Вид изнутри поля "Купол"
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field_4">
+                                            <img id="field4_4" src="imgftball/wholeViewField.JPG">
+                                            <figcaption style="font-size: 5vw; margin: 9vh 4vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Вид с большого поля на среднее с полем "Купол"
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field_5">
+                                            <img id="field5_5" src="imgftball/wholeViewField.JPG">
+                                            <figcaption style="font-size: 5vw; margin: 9vh 4vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                               Вид с большого поля на среднее с полем "Купол"
+                                            </figcaption>
+                                        </figure>
+
+                                        <figure style="margin: 0 0 0vh 0;" id="field_6">
+                                            <img id="field6_6" src="imgftball/wholeViewField.JPG">
+                                            <figcaption style="font-size: 5vw; margin: 9vh 4vw 0 0vw; color: rgb(255,237,0); text-align: right;">
+                                                Вид с большого поля на среднее с полем "Купол"
+                                            </figcaption>
+                                        </figure>
+                                        
                                     </div>
-                                   
-                                        <button id="stickmanLeftButton" type="button" onclick="stickmanLeftButton();">
-                                            <img src="imgftball/yellowStickman.gif">
-                                        </button>
-                                    <!--
-                                        <button id="stickmanRightButton" type="button" onclick="stickmanRightButton();">
-                                            <img src="imgftball/yellowStickmanButton.png">
-                                        </button>
-                                    --> 
                                 </div>
-                                <div id="textPhotoSection">
-                                    <br>
-                                    <p style="font-size: 5vw; margin: 1vh 0vw 0 10vw"> нажмите на бегущего человечка, <br> чтобы пролистать фотографии вправо</p>
-                                    <br>
-                                    <p style="font-size: 5vw; margin: 1vh 0vw 0 10vw"> #1 - большое поле</p>
-                                    <br>
-                                    <p style="font-size: 5vw; margin: 1vh 0vw 0 10vw"> #2 - вид с большого поля на среднее с полем "Купол" </p>
-                                    <br>
-                                    <p style="font-size: 5vw; margin: 1vh 0vw 0 10vw"> #3 - вид изнутри поля "Купол"</p>
-                                    <br>
-                                    <p style="font-size: 5vw; margin: 1vh 0vw 0 10vw">#4 - среднее поле </p>
-                                    <br>
-                                    <br>
-                                    <br>
+                                <div id="stickManButtons">
+                                    <button id="stickmanLeftButton" type="button" onclick="stickmanLeftButton();">
+                                        <img src="imgftball/blackStickmanGif.gif">
+                                    </button>
+                                    <button id="stickmanLeftButton2" type="button" onclick="stickmanLeftButton();">
+                                        <img src="imgftball/blackStickmanGif.gif">
+                                    </button>
+                                     <button id="stickmanLeftButton3" type="button" onclick="stickmanLeftButton();">
+                                        <img src="imgftball/blackStickmanGif.gif">
+                                    </button>
                                 </div>
+                                
                             </div>
                         </div>    
                     </div>
@@ -678,7 +735,6 @@
                                 <div class="phoneMain">
                                 <div class="phone1">
                                         <div class="phoneMove">
-                                            <img src="imgftball/phoneSafari.png" class="phoneImageForSafari"> 
                                             <div class="phone2">
                                                 <div>
                                                     <p class="p"> P </p>
@@ -738,7 +794,6 @@
                                             "Болат, 20:00 - 22:00, четверг, 21 июня, поле #7". 
                                         </small>   
                                     </p>
-                                    
                                 </div>
                                 <div id="socialContainer">
                                     <a href="https://www.instagram.com/footballjuniorschool/">
@@ -836,13 +891,9 @@
 
                 var fieldArray = ["1", "2", "3", "4", "5"];
                 function stickmanLeftButton1() {
-                    document.getElementById("stickmanLeftButton1").style.animation = "yellowStickmanMove 3s";
-                    document.getElementById("stickmanLeftButton1").style.animationFillMode = "backwards";
-                    document.getElementById("stickmanLeftButton1").style.webkitAnimation = "yellowStickmanMove 5s";
-                    document.getElementById("stickmanLeftButton1").style.webkitAnimationFillMode = "backwards 5s";
                     for (let i = 0; i < fieldArray.length; i++) {
                         console.log("success");
-                        if (window.getComputedStyle(document.getElementById("field" + fieldArray[i]), null).getPropertyValue("display") == "inline") {
+                        if (window.getComputedStyle(document.getElementById("field" + fieldArray[i] + fieldArray[i]), null).getPropertyValue("display") == "block") {
                             console.log("it is " + " " + i);
                             var switchToLeft = i - 1;
                             var leftSwitch;
@@ -858,9 +909,9 @@
                                 leftSwitch = i - 1;
                                 rightSwitch = 0;
                             }
-                            document.getElementById("field" + fieldArray[i]).style.display = "none";
-                            document.getElementById("field" + fieldArray[leftSwitch]).style.display = "inline";
-                            document.getElementById("field" + fieldArray[rightSwitch]).style.display = "none";
+                            document.getElementById("field" + fieldArray[i] + fieldArray[i]).style.display = "none";
+                            document.getElementById("field" + fieldArray[leftSwitch] + fieldArray[leftSwitch]).style.display = "block";
+                            document.getElementById("field" + fieldArray[rightSwitch] + fieldArray[rightSwitch]).style.display = "none";
                             console.log(window.getComputedStyle(document.getElementById("field" + fieldArray[0]), null).getPropertyValue("display"));
                             
                         }
@@ -869,13 +920,9 @@
 
                 var fieldArray = ["1", "2", "3", "4", "5"];
                 function stickmanLeftButton() {
-                    document.getElementById("stickmanLeftButton").style.animation = "yellowStickmanMove 3s";
-                    document.getElementById("stickmanLeftButton").style.animationFillMode = "backwards";
-                    document.getElementById("stickmanLeftButton").style.webkitAnimation = "yellowStickmanMove 5s";
-                    document.getElementById("stickmanLeftButton").style.webkitAnimationFillMode = "backwards 5s";
                     for (let i = 0; i < fieldArray.length; i++) {
                         console.log("success");
-                        if (window.getComputedStyle(document.getElementById("field" + "_" + fieldArray[i]), null).getPropertyValue("display") == "inline") {
+                        if (window.getComputedStyle(document.getElementById("field" + "_" + fieldArray[i]), null).getPropertyValue("display") == "block") {
                             console.log("it is " + " " + i);
                             var switchToLeft = i - 1;
                             var leftSwitch;
@@ -892,8 +939,9 @@
                                 rightSwitch = 0;
                             }
                             document.getElementById("field" + "_" + fieldArray[i]).style.display = "none";
-                            document.getElementById("field" + "_" + fieldArray[leftSwitch]).style.display = "inline";
+                            document.getElementById("field" + "_" + fieldArray[leftSwitch]).style.display = "block";
                             document.getElementById("field" + "_" + fieldArray[rightSwitch]).style.display = "none";
+
                             console.log(window.getComputedStyle(document.getElementById("field" + "_" + fieldArray[0]), null).getPropertyValue("display"));
                             
                         }
