@@ -207,14 +207,14 @@ div.references  {
 .Section1Slide3 {
     display: inline-flex;
     width: 100%; 
-    margin: 0vh 0 0 0; 
+    margin: 10vh 0 -40vh 0; 
     padding: 0 0 0 0; 
     line-height: 0;
 }
 .Section1Slide4 {
     display: inline-flex;
     width: 100%; 
-    margin: 0vh 0 0 0; 
+    margin: 30vh 0 0 0; 
     padding: 0 0 0 0; 
     line-height: 0;
 }
@@ -239,7 +239,7 @@ div.references  {
     width: 50vw;
     display: block;
     position: relative;
-    margin: 10vh 5vw 10vh 55vw;
+    margin: -20vh 5vw 10vh 55vw;
 }
 .Section1Slide1SecondHalf{
     margin: 10vh 5vw 0 5vw; 
@@ -252,7 +252,7 @@ div.references  {
     width: 50vw;
 }
 .Section1Slide3SecondHalf{
-    margin: 10vh 5vw 0 5vw; 
+    margin: 10vh 5vw 0vh 5vw; 
     padding: 0 0 0 0; 
     width: 50vw;
 }
@@ -1127,5 +1127,3 @@ div.references  {
 
 
     }
-
-
